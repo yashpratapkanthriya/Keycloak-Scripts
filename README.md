@@ -97,8 +97,6 @@ This batch script is designed to export all users (with their associated groups)
 
 Filename: createUserWithGroup.bat
 
-Below is a detailed description of the script we created:
-
 ---
 
 ### Script Overview
@@ -199,4 +197,3 @@ This batch script automates the process of creating 120 new users in a Keycloak 
 - **Logging:** All actions and errors are logged to a logfile (`userscreated.log`), making it easier to troubleshoot and verify each step.
 - **File Requirement:** The script uses an `empty.json` file (which should contain `{}`) to work around a CLI requirement when adding users to a group.
 
-This detailed description explains each part of the script and how it achieves the desired automation in Keycloak.
