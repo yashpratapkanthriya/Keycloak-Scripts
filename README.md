@@ -1,5 +1,7 @@
 # Keycloak-Scripts
 
+JQ download link: [Download⬇️](https://jqlang.org/download/) 
+
 ---
 
 # Windows
