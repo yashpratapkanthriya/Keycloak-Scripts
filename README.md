@@ -11,27 +11,87 @@ JQ download link: [Download⬇️](https://jqlang.org/download/)
 Filename: getUserPaginationWithGroups.bat
 
 The final, main output file produced by the script is users_with_groups.json.
-## Script Description:
 
-### Fetch Count of Users:
-The script starts by calling the Keycloak CLI to fetch the count of all user records.
+---
 
-### Fetch All Users:
-The script then calls the Keycloak CLI to fetch all user records with pagination. This output is saved to all_users.json.
+### **Script Overview**
 
-### Extract User IDs:
-Using jq, the script extracts the id field from each user in all_users.json and writes those IDs to user_ids.json.
+This batch script is designed to export all users (with their associated groups) from a Keycloak realm in a paginated fashion, then merge the results into a single JSON file. It uses the Keycloak Admin CLI (`kcadm.bat`) for API calls and **jq** for JSON processing. The script is particularly useful when you have a large number of users (e.g., 2000+) and need to handle pagination automatically.
 
-### Process Each User:
-For every user ID in user_ids.json, the script:
-Fetches the detailed user information.
-Fetches the groups for that user.
-Merges the user details and group information using jq into a single JSON object.
+---
 
-### Assemble Final Output:
-Each merged user JSON object is appended into a JSON array in users_with_groups.json. This final file contains an array of user objects where each object includes the original user details along with a new "groups" field holding the array of group objects.
+### **Key Steps in the Script**
 
-In summary, users_with_groups.json is your complete JSON output that aggregates user details and their associated groups in a structured, valid JSON array.
+1. **Configuration & Initialization:**  
+   - **Variables:**  
+     - **LOGFILE:** Log file path to capture detailed execution logs.  
+     - **KEYCLOAK_BIN:** Path to the Keycloak Admin CLI executable (`kcadm.bat`).  
+     - **JQ_EXE:** Path to the **jq** executable for JSON processing.  
+     - **SERVER_URL:** The URL of the Keycloak server (e.g., `http://localhost:8080/auth`).  
+     - **AUTH_REALM:** Realm used for authentication (commonly `master`).  
+     - **TARGET_REALM:** Realm from which users are retrieved (e.g., `singleRealm`).  
+     - **ADMIN_USER / ADMIN_PASS:** Admin credentials for authenticating with Keycloak.  
+     - **pageSize:** Number of users to retrieve per page (set to 100).
+   - **Logging:**  
+     The script starts by logging its start time to `users_with_groups.log`.
+
+2. **Authentication:**  
+   - The script authenticates to Keycloak using the admin credentials and the authentication realm (`AUTH_REALM`).  
+   - This is necessary to obtain a valid session token for subsequent API calls.
+
+3. **Fetching the Total User Count:**  
+   - The script calls the `/users/count` endpoint against the **TARGET_REALM** to retrieve the total number of users.  
+   - The returned count is saved in `user_count.json` and then read into a variable (`userCount`).  
+   - Using this count and the predefined page size, the script calculates the total number of pages needed (rounding up if necessary).
+
+4. **Pagination – Fetching Users in Batches:**  
+   - A loop (pagination loop) iterates over each page:
+     - **Re-Authentication:** Before each paginated API call, the script re-authenticates to refresh the session.
+     - **Offset & Limit:** The script uses the dedicated pagination options:
+       - **`-o` (offset):** Sets the starting index (passed as the `first` query parameter).
+       - **`-l` (limit):** Sets the maximum number of users to retrieve (passed as the `max` query parameter).
+     - Each API call retrieves a batch of users (100 per call) and saves the output to a file (e.g., `page_0.json`, `page_1.json`, etc.).
+     - The loop stops when all pages have been fetched or if a page returns an empty file.
+
+5. **Aggregating Paginated Files:**  
+   - Once all pages are fetched, the script uses **jq** with the `-s "add"` option to merge all page JSON files into one single aggregated file (`all_users_full.json`).
+
+6. **Extracting User IDs:**  
+   - The script then extracts the `id` field from each user in the aggregated file using **jq**.
+   - The resulting list of user IDs is stored in `user_ids.json`.
+
+7. **Processing Each User:**  
+   - For every user ID found in `user_ids.json`, the script calls a subroutine (`:process_user`) that:
+     - **Fetches User Details:** Retrieves the full user record using the `get users/{id}` endpoint.
+     - **Fetches User Groups:** Retrieves the list of groups associated with that user.
+     - **Merges Data:** Uses **jq** to merge the user details with the groups into one JSON object.
+     - **Appending to Final Output:** Appends the merged JSON for each user to a file called `users_with_groups.json`, building a JSON array.
+
+8. **Final Output:**  
+   - The main output file of the script is **`users_with_groups.json`**.  
+   - This file contains a JSON array where each element is an object representing a user, complete with their detailed information and an added `"groups"` field that holds the user’s groups.
+
+9. **Logging & Clean-up:**  
+   - Throughout the process, detailed logs are written to `users_with_groups.log` with timestamps to help troubleshoot any issues.
+   - Optionally, intermediate page files are deleted after aggregation.
+
+---
+
+### **Usage Summary**
+
+- **Purpose:**  
+  To export a complete list of users (and their associated groups) from a specified Keycloak realm, handling pagination automatically when there are more users than can be returned in a single API call.
+
+- **Main Output:**  
+  The final output is a JSON file named **`users_with_groups.json`**, which contains an array of user objects enriched with their group data.
+
+- **Requirements:**  
+  - Keycloak Admin CLI (`kcadm.bat`) must be properly configured and accessible.
+  - **jq** must be installed and available at the specified path.
+  - Valid admin credentials for authentication.
+  - The target realm (from which users are fetched) must exist.
+
+---
 
 # 2. Create users with specific Group
 
