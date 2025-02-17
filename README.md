@@ -96,7 +96,9 @@ This batch script is designed to export all users (with their associated groups)
 # 2. Create users with specific Group
 
 Filename: createUserWithGroup.bat
+
 Note: Set the flag -r <realm_name> to target the specific realm accordingly. As it is not defined explicitly via variable.
+
 ---
 
 ### Script Overview
