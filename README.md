@@ -3,6 +3,11 @@
 ---
 
 # Windows
+
+# Get Users with Groups Assigned
+
+Filename: getUserPaginationWithGroups.bat
+
 The final, main output file produced by the script is users_with_groups.json.
 ## Script Description:
 
