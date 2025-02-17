@@ -1,0 +1,4295 @@
+[START] User export process at Fri 02/14/2025  5:05:28.23 
+[ 5:05:28.23] Authenticating with Keycloak CLI... 
+Logging into http://localhost:8080/auth as user admin of realm master
+[ 5:05:35.10] Successfully authenticated. 
+[ 5:05:35.15] Fetching user count from realm "singleRealm"... 
+
+[ 5:05:41.18] User count: 125 
+[ 5:05:41.22] Total pages to fetch: 2 
+[ 5:05:41.28] Starting pagination to fetch all users from realm "singleRealm"... 
+[ 5:05:41.34] Re-authenticating before fetching page 0... 
+Logging into http://localhost:8080/auth as user admin of realm master
+[ 5:05:47.71] Fetching users with offset 0 (page 0)... 
+
+[ 5:05:54.58] Re-authenticating before fetching page 1... 
+Logging into http://localhost:8080/auth as user admin of realm master
+[ 5:06:00.90] Fetching users with offset 100 (page 1)... 
+
+[ 5:06:07.14] Pagination complete. Total pages fetched: 2 
+[ 5:06:07.15] Aggregating paginated user files into all_users_full.json... 
+[ 5:06:07.46] Aggregation complete. 
+[ 5:06:07.48] Extracting user IDs using jq from all_users_full.json... 
+[ 5:06:07.71] Finished extracting user IDs. 
+[ 5:06:07.73] Extracted user IDs: 
+2ce289bf-feb6-4e2d-bb64-53e19325e627
+0667288a-0e12-41e6-b867-0fc6b3117647
+0440793e-7652-45e4-99a3-98e19c87c532
+26eed35f-f418-45b2-b471-db5f925358b0
+61854b3e-a8fa-481b-a59c-348e1fbee457
+e5ebb67e-0d97-4fa2-8c6d-96b36c35538a
+398382d8-92e8-496b-aa3f-2a03b3a42f06
+ed95b7e2-1d2f-4684-b881-55c5e7f76cf9
+dc92a143-c046-4d34-8ec8-e6bd051a4d9d
+5fd82428-d3b0-4c67-a734-7a39b8be831a
+2cc4b22f-6782-4ede-b7d9-84fd91887731
+06ee4cbe-50dd-4542-9c15-cebc40150991
+7c68072d-2898-42da-89cb-0eaeaae7a72b
+034c8364-614f-430a-892a-f7d343dea556
+0ba990ab-8e81-402f-82e8-1254e410c8f0
+b183a430-c6c7-448b-8552-e792ac4f2137
+2bc2a1d3-adeb-4c78-9a99-2a232d28f443
+b2dc4a79-2c8b-4a43-8e81-71b926ac2675
+c2ae229b-da4e-49ed-a967-7a893cc93982
+11c96e23-43d6-4d49-a810-08a462e3833c
+3682f9f5-0fce-4442-9887-3f1deebe3569
+f24453c9-5b66-4a2c-9db1-f00205c6f02d
+81443c39-6fba-43b4-b5b2-8deb68524cb1
+f521e301-2c16-460a-8a90-50f8b47e80ff
+97272c13-20f6-4646-b243-afeb8518fef7
+ece2ece4-783c-4748-a5a0-1ab4349ab5d8
+324320b0-4bfb-45ff-b774-b71b29ac638a
+5ccd1a0b-7312-4d1b-9301-b74da62294dc
+4ec54045-de03-4a86-b69e-64c279b35cc0
+85011cfa-0a2a-4c3e-8b31-f875e08600c2
+67ff46e5-cd7c-487d-bf5f-b88d2023002e
+a8277012-8631-414c-9bd0-0e174fb3cf61
+7b240092-9399-4145-a1c8-633a6bbe6e46
+4b3e594d-36ec-4ca9-a6f6-6d355cef73af
+80b86037-2e9c-483e-9843-48c450a3819a
+875982e7-e8e7-4e04-8c1e-01a44d5cbecc
+0571752c-479a-4e61-8344-f03d275a802e
+7af0eeff-acd5-4317-a470-ac5a924293fb
+4b800242-1421-492f-bb5a-89b5c81714c4
+ba13cb5a-a407-493e-9160-de8e342b0f05
+c4715447-d2ff-442c-b2a1-92090414ef0a
+adb605d6-4730-4f4c-92a8-d25731a18096
+3cbba50d-13ff-4b41-94f6-b60aba0e025a
+a08a6b36-8bf1-4e16-b170-cbe217bda056
+7d88d690-3696-4f95-98b3-c1132515c115
+055c9f0d-e2bf-426f-b42f-96c6d777b9fa
+1cd0b084-4465-4793-b264-c362bab4fa93
+21bd0c1c-e71c-4966-b976-e251ce73b1da
+c321a4a4-e7c0-4778-9fee-5ea982f15319
+7e0bbf41-6df8-4cb1-806e-670e8fb13e0a
+2d0ae08f-a8a1-456a-a91d-30fad29ef9f9
+921d916d-71a3-49e8-a49f-ee4e65324bd6
+e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9
+ac38c66f-3fa3-4c80-bd45-abf4f376eb07
+08662ac4-f218-4888-a8f5-ba8e5ac15769
+8fefe3ff-58d6-4b7c-8f03-5418d49c61c5
+1e678618-e70b-4905-90ca-a0da6afd29cf
+1688aed6-a62b-4816-bc37-ec96116778c8
+d1487afe-6a72-4aa3-843a-6da631f2fb92
+066bac01-9d95-4b81-8e5f-3692137dfb2d
+63aca6a9-f522-462d-9e0e-3f1f62c0b0d3
+023853d8-d3a8-4511-87ad-5a72b4cfded0
+95964ef3-1d14-48ee-8832-7373276a71af
+43a00ec4-a194-440f-9c72-13a48150fa04
+c47654a3-066a-4eb2-ba04-ce3f602e2e73
+55374ced-6ba7-4f47-9ed1-f81225e92379
+6436d6b4-6108-43c7-821a-a9c666bc7654
+1155f6a0-4b30-47bb-91af-ba77c7ef0f2c
+770c9dd6-6283-4e69-ae1a-58d48f0bbf4e
+e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b
+09e99555-c18b-4115-a55c-d51f7eccfd81
+d745a26f-85ae-4bde-b648-2f9d6b3e24b2
+3a609b3d-daaf-4070-9295-254da750628a
+4c87ba22-5643-4f7f-a5ba-f451645b264d
+e4eebaf2-c879-40d1-9b99-7b9f6978664c
+90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba
+c2836f94-8513-4f4c-9ef0-ee90948bae4e
+d0f1b306-f83d-458d-a418-9a95e85ee155
+1928b89a-bb16-4f75-b7f2-a6f9611f4c30
+a14d9b13-85f8-486d-9bac-08e4540d5193
+23527975-abc4-40c3-a658-f17354620094
+5dcba5d4-9a29-448f-ae1d-c1ed58742367
+62e8caef-f8b9-4621-95c2-0637b9895719
+4d37dcd6-9bb5-4016-9edf-58d6664cdc2d
+9e3f1523-3ffc-428f-8c08-a36c92d5ce2d
+b9fde3d4-897a-4d9d-b340-1c358922a9e0
+248757c8-458c-43f4-8001-19e284b134b4
+97c203e2-2fd2-4a7f-a180-8cc931b48ab4
+08c3528c-34d0-44e4-84cc-040c4ad4ca30
+80de232b-7f78-44f2-bf8d-a5dcc90b7b8a
+43597756-ded2-4762-8902-1989bebecf9a
+934ab503-0252-46b1-9700-29f42e2ae546
+fbeca82d-24d9-4853-867e-20ebbad8011a
+4a016f2d-ecf0-48d6-b864-953d833cec3d
+e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d
+685f581d-1c72-4c61-aa04-01d1ac8ec63b
+e5f0e0d3-efc8-4460-845f-5df261af32c4
+e17bf628-3a76-44a3-84a6-b1da8fc60fb9
+201535e1-ebf4-49d6-86c2-f23654fb9a05
+e97b5906-b208-448a-a3a5-a716659826e1
+ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15
+9d997822-812a-4f3d-935a-c5f43cc69ce4
+92b989a7-a9aa-4113-af78-a5e3b1b8cc15
+36ac4e02-3d6f-4aca-9e3f-165dda5dcc05
+926cf507-9502-4a40-83fc-f9984196337c
+b698d6b4-52d6-4d90-b200-36487da07f7d
+e44332dd-4ffb-41a3-b067-90f797e0b94e
+6a1a199b-e6fa-45f9-b064-ac2504da6a07
+c8e28344-eb40-489e-ad60-7c6f65708ba1
+d9615da1-0575-4691-94b0-8ec313995ef2
+b45a8e3b-c82e-4d35-ae83-c878ca87640e
+0e77fb93-8ae9-4a55-bb53-926cf041566e
+1ac1bd3d-991c-4ca7-96ff-190633b4ad4a
+881132aa-d9d3-414a-820b-d8d2547079f2
+ae619057-eee6-4087-9594-ff1bbe84ee42
+47e975d9-cc3b-4f71-a765-f5b18bcd8882
+c922d4c9-1ce6-4a6a-8245-e440cb14ddcb
+c162db19-c947-4fa7-b065-8b391437ca41
+bd878447-6cba-4086-9b1d-6bd8900e0324
+42e6f30f-565b-429c-ad73-a4ddc4d5073c
+0dee3c36-4836-45c9-96bf-f8ff9715cbda
+af64c258-5bb2-4f91-a9d0-18e38692db75
+efd91eda-8ea0-47a1-bdfd-eda35323167a
+0fa52ebe-8856-47f8-89e5-5a6c22affe3a
+9a8ef97f-e404-4083-82e3-9f9060c9d43c
+------------------------------------ 
+[ 5:06:07.92] Processing each user... 
+[ 5:06:08.01] Processing user ID: 2ce289bf-feb6-4e2d-bb64-53e19325e627 
+[ 5:06:08.05] Fetching details for user 2ce289bf-feb6-4e2d-bb64-53e19325e627... 
+
+[ 5:06:13.92] User details for 2ce289bf-feb6-4e2d-bb64-53e19325e627: 
+{
+  "id" : "2ce289bf-feb6-4e2d-bb64-53e19325e627",
+  "createdTimestamp" : 1731693767243,
+  "username" : "acm",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : true,
+  "firstName" : "ACM",
+  "lastName" : "User",
+  "email" : "johndoe@imtf.com",
+  "attributes" : {
+    "assignedTenants" : [ "acmTenant1" ]
+  },
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:06:14.11] Fetching groups for user 2ce289bf-feb6-4e2d-bb64-53e19325e627... 
+
+[ 5:06:20.14] Groups for 2ce289bf-feb6-4e2d-bb64-53e19325e627: 
+[ {
+  "id" : "b0b931d4-bf08-4b9e-bf08-1c272b6b4330",
+  "name" : "GlobalManager",
+  "path" : "/GlobalManager"
+} ]------------------------------------ 
+[ 5:06:20.53] Successfully processed user 2ce289bf-feb6-4e2d-bb64-53e19325e627. 
+------------------------------------ 
+[ 5:06:20.63] Processing user ID: 0667288a-0e12-41e6-b867-0fc6b3117647 
+[ 5:06:20.67] Fetching details for user 0667288a-0e12-41e6-b867-0fc6b3117647... 
+
+[ 5:06:26.88] User details for 0667288a-0e12-41e6-b867-0fc6b3117647: 
+{
+  "id" : "0667288a-0e12-41e6-b867-0fc6b3117647",
+  "createdTimestamp" : 1731693775292,
+  "username" : "admin",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : true,
+  "firstName" : "Ian",
+  "lastName" : "Admin",
+  "email" : "ianadmin@imtf.com",
+  "attributes" : {
+    "assignedTenants" : [ "acmTenant1" ]
+  },
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:06:27.07] Fetching groups for user 0667288a-0e12-41e6-b867-0fc6b3117647... 
+
+[ 5:06:33.21] Groups for 0667288a-0e12-41e6-b867-0fc6b3117647: 
+[ {
+  "id" : "10e2e218-d938-4b30-ad4a-9bc476b0cb10",
+  "name" : "Super Users",
+  "path" : "/Super Users"
+}, {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:06:33.58] Successfully processed user 0667288a-0e12-41e6-b867-0fc6b3117647. 
+------------------------------------ 
+[ 5:06:33.67] Processing user ID: 0440793e-7652-45e4-99a3-98e19c87c532 
+[ 5:06:33.72] Fetching details for user 0440793e-7652-45e4-99a3-98e19c87c532... 
+
+[ 5:06:39.96] User details for 0440793e-7652-45e4-99a3-98e19c87c532: 
+{
+  "id" : "0440793e-7652-45e4-99a3-98e19c87c532",
+  "createdTimestamp" : 1731693771086,
+  "username" : "demo",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : true,
+  "firstName" : "John",
+  "lastName" : "Doe",
+  "email" : "demo@imtf.com",
+  "attributes" : {
+    "assignedTenants" : [ "acmTenant1" ]
+  },
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:06:40.15] Fetching groups for user 0440793e-7652-45e4-99a3-98e19c87c532... 
+
+[ 5:06:46.51] Groups for 0440793e-7652-45e4-99a3-98e19c87c532: 
+[ {
+  "id" : "10e2e218-d938-4b30-ad4a-9bc476b0cb10",
+  "name" : "Super Users",
+  "path" : "/Super Users"
+}, {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:06:46.94] Successfully processed user 0440793e-7652-45e4-99a3-98e19c87c532. 
+------------------------------------ 
+[ 5:06:47.02] Processing user ID: 26eed35f-f418-45b2-b471-db5f925358b0 
+[ 5:06:47.08] Fetching details for user 26eed35f-f418-45b2-b471-db5f925358b0... 
+
+[ 5:06:52.99] User details for 26eed35f-f418-45b2-b471-db5f925358b0: 
+{
+  "id" : "26eed35f-f418-45b2-b471-db5f925358b0",
+  "createdTimestamp" : 1731693755420,
+  "username" : "idp-adapter",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "attributes" : {
+    "assignedTenants" : [ "acmTenant1" ]
+  },
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:06:53.18] Fetching groups for user 26eed35f-f418-45b2-b471-db5f925358b0... 
+
+[ 5:06:59.18] Groups for 26eed35f-f418-45b2-b471-db5f925358b0: 
+[ ]------------------------------------ 
+[ 5:06:59.66] Successfully processed user 26eed35f-f418-45b2-b471-db5f925358b0. 
+------------------------------------ 
+[ 5:06:59.74] Processing user ID: 61854b3e-a8fa-481b-a59c-348e1fbee457 
+[ 5:06:59.80] Fetching details for user 61854b3e-a8fa-481b-a59c-348e1fbee457... 
+
+[ 5:07:05.82] User details for 61854b3e-a8fa-481b-a59c-348e1fbee457: 
+{
+  "id" : "61854b3e-a8fa-481b-a59c-348e1fbee457",
+  "createdTimestamp" : 1731693755797,
+  "username" : "public-api",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "attributes" : {
+    "assignedTenants" : [ "acmTenant1" ]
+  },
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:07:06.01] Fetching groups for user 61854b3e-a8fa-481b-a59c-348e1fbee457... 
+
+[ 5:07:11.68] Groups for 61854b3e-a8fa-481b-a59c-348e1fbee457: 
+[ ]------------------------------------ 
+[ 5:07:12.09] Successfully processed user 61854b3e-a8fa-481b-a59c-348e1fbee457. 
+------------------------------------ 
+[ 5:07:12.19] Processing user ID: e5ebb67e-0d97-4fa2-8c6d-96b36c35538a 
+[ 5:07:12.23] Fetching details for user e5ebb67e-0d97-4fa2-8c6d-96b36c35538a... 
+
+[ 5:07:18.20] User details for e5ebb67e-0d97-4fa2-8c6d-96b36c35538a: 
+{
+  "id" : "e5ebb67e-0d97-4fa2-8c6d-96b36c35538a",
+  "createdTimestamp" : 1739528189372,
+  "username" : "user001",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user001@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:07:18.40] Fetching groups for user e5ebb67e-0d97-4fa2-8c6d-96b36c35538a... 
+
+[ 5:07:24.38] Groups for e5ebb67e-0d97-4fa2-8c6d-96b36c35538a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:07:24.81] Successfully processed user e5ebb67e-0d97-4fa2-8c6d-96b36c35538a. 
+------------------------------------ 
+[ 5:07:24.89] Processing user ID: 398382d8-92e8-496b-aa3f-2a03b3a42f06 
+[ 5:07:24.94] Fetching details for user 398382d8-92e8-496b-aa3f-2a03b3a42f06... 
+
+[ 5:07:30.99] User details for 398382d8-92e8-496b-aa3f-2a03b3a42f06: 
+{
+  "id" : "398382d8-92e8-496b-aa3f-2a03b3a42f06",
+  "createdTimestamp" : 1739528205118,
+  "username" : "user002",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user002@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:07:31.19] Fetching groups for user 398382d8-92e8-496b-aa3f-2a03b3a42f06... 
+
+[ 5:07:36.75] Groups for 398382d8-92e8-496b-aa3f-2a03b3a42f06: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:07:37.20] Successfully processed user 398382d8-92e8-496b-aa3f-2a03b3a42f06. 
+------------------------------------ 
+[ 5:07:37.29] Processing user ID: ed95b7e2-1d2f-4684-b881-55c5e7f76cf9 
+[ 5:07:37.33] Fetching details for user ed95b7e2-1d2f-4684-b881-55c5e7f76cf9... 
+
+[ 5:07:43.20] User details for ed95b7e2-1d2f-4684-b881-55c5e7f76cf9: 
+{
+  "id" : "ed95b7e2-1d2f-4684-b881-55c5e7f76cf9",
+  "createdTimestamp" : 1739528221472,
+  "username" : "user003",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user003@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:07:43.40] Fetching groups for user ed95b7e2-1d2f-4684-b881-55c5e7f76cf9... 
+
+[ 5:07:49.26] Groups for ed95b7e2-1d2f-4684-b881-55c5e7f76cf9: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:07:49.68] Successfully processed user ed95b7e2-1d2f-4684-b881-55c5e7f76cf9. 
+------------------------------------ 
+[ 5:07:49.78] Processing user ID: dc92a143-c046-4d34-8ec8-e6bd051a4d9d 
+[ 5:07:49.82] Fetching details for user dc92a143-c046-4d34-8ec8-e6bd051a4d9d... 
+
+[ 5:07:56.23] User details for dc92a143-c046-4d34-8ec8-e6bd051a4d9d: 
+{
+  "id" : "dc92a143-c046-4d34-8ec8-e6bd051a4d9d",
+  "createdTimestamp" : 1739528557115,
+  "username" : "user004",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user004@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:07:56.43] Fetching groups for user dc92a143-c046-4d34-8ec8-e6bd051a4d9d... 
+
+[ 5:08:02.77] Groups for dc92a143-c046-4d34-8ec8-e6bd051a4d9d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:08:03.24] Successfully processed user dc92a143-c046-4d34-8ec8-e6bd051a4d9d. 
+------------------------------------ 
+[ 5:08:03.36] Processing user ID: 5fd82428-d3b0-4c67-a734-7a39b8be831a 
+[ 5:08:03.40] Fetching details for user 5fd82428-d3b0-4c67-a734-7a39b8be831a... 
+
+[ 5:08:09.72] User details for 5fd82428-d3b0-4c67-a734-7a39b8be831a: 
+{
+  "id" : "5fd82428-d3b0-4c67-a734-7a39b8be831a",
+  "createdTimestamp" : 1739528575043,
+  "username" : "user005",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user005@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:08:09.89] Fetching groups for user 5fd82428-d3b0-4c67-a734-7a39b8be831a... 
+
+[ 5:08:16.11] Groups for 5fd82428-d3b0-4c67-a734-7a39b8be831a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:08:16.60] Successfully processed user 5fd82428-d3b0-4c67-a734-7a39b8be831a. 
+------------------------------------ 
+[ 5:08:16.70] Processing user ID: 2cc4b22f-6782-4ede-b7d9-84fd91887731 
+[ 5:08:16.74] Fetching details for user 2cc4b22f-6782-4ede-b7d9-84fd91887731... 
+
+[ 5:08:23.00] User details for 2cc4b22f-6782-4ede-b7d9-84fd91887731: 
+{
+  "id" : "2cc4b22f-6782-4ede-b7d9-84fd91887731",
+  "createdTimestamp" : 1739528593099,
+  "username" : "user006",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user006@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:08:23.20] Fetching groups for user 2cc4b22f-6782-4ede-b7d9-84fd91887731... 
+
+[ 5:08:28.80] Groups for 2cc4b22f-6782-4ede-b7d9-84fd91887731: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:08:29.22] Successfully processed user 2cc4b22f-6782-4ede-b7d9-84fd91887731. 
+------------------------------------ 
+[ 5:08:29.31] Processing user ID: 06ee4cbe-50dd-4542-9c15-cebc40150991 
+[ 5:08:29.34] Fetching details for user 06ee4cbe-50dd-4542-9c15-cebc40150991... 
+
+[ 5:08:34.60] User details for 06ee4cbe-50dd-4542-9c15-cebc40150991: 
+{
+  "id" : "06ee4cbe-50dd-4542-9c15-cebc40150991",
+  "createdTimestamp" : 1739528611908,
+  "username" : "user007",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user007@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:08:34.78] Fetching groups for user 06ee4cbe-50dd-4542-9c15-cebc40150991... 
+
+[ 5:08:40.40] Groups for 06ee4cbe-50dd-4542-9c15-cebc40150991: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:08:40.78] Successfully processed user 06ee4cbe-50dd-4542-9c15-cebc40150991. 
+------------------------------------ 
+[ 5:08:40.86] Processing user ID: 7c68072d-2898-42da-89cb-0eaeaae7a72b 
+[ 5:08:40.90] Fetching details for user 7c68072d-2898-42da-89cb-0eaeaae7a72b... 
+
+[ 5:08:47.09] User details for 7c68072d-2898-42da-89cb-0eaeaae7a72b: 
+{
+  "id" : "7c68072d-2898-42da-89cb-0eaeaae7a72b",
+  "createdTimestamp" : 1739528630685,
+  "username" : "user008",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user008@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:08:47.27] Fetching groups for user 7c68072d-2898-42da-89cb-0eaeaae7a72b... 
+
+[ 5:08:53.35] Groups for 7c68072d-2898-42da-89cb-0eaeaae7a72b: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:08:53.78] Successfully processed user 7c68072d-2898-42da-89cb-0eaeaae7a72b. 
+------------------------------------ 
+[ 5:08:53.86] Processing user ID: 034c8364-614f-430a-892a-f7d343dea556 
+[ 5:08:53.90] Fetching details for user 034c8364-614f-430a-892a-f7d343dea556... 
+
+[ 5:08:59.92] User details for 034c8364-614f-430a-892a-f7d343dea556: 
+{
+  "id" : "034c8364-614f-430a-892a-f7d343dea556",
+  "createdTimestamp" : 1739528648818,
+  "username" : "user009",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user009@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:09:00.12] Fetching groups for user 034c8364-614f-430a-892a-f7d343dea556... 
+
+[ 5:09:05.83] Groups for 034c8364-614f-430a-892a-f7d343dea556: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:09:06.27] Successfully processed user 034c8364-614f-430a-892a-f7d343dea556. 
+------------------------------------ 
+[ 5:09:06.36] Processing user ID: 0ba990ab-8e81-402f-82e8-1254e410c8f0 
+[ 5:09:06.41] Fetching details for user 0ba990ab-8e81-402f-82e8-1254e410c8f0... 
+
+[ 5:09:12.25] User details for 0ba990ab-8e81-402f-82e8-1254e410c8f0: 
+{
+  "id" : "0ba990ab-8e81-402f-82e8-1254e410c8f0",
+  "createdTimestamp" : 1739528667345,
+  "username" : "user010",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user010@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:09:12.44] Fetching groups for user 0ba990ab-8e81-402f-82e8-1254e410c8f0... 
+
+[ 5:09:18.29] Groups for 0ba990ab-8e81-402f-82e8-1254e410c8f0: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:09:18.72] Successfully processed user 0ba990ab-8e81-402f-82e8-1254e410c8f0. 
+------------------------------------ 
+[ 5:09:18.80] Processing user ID: b183a430-c6c7-448b-8552-e792ac4f2137 
+[ 5:09:18.83] Fetching details for user b183a430-c6c7-448b-8552-e792ac4f2137... 
+
+[ 5:09:24.85] User details for b183a430-c6c7-448b-8552-e792ac4f2137: 
+{
+  "id" : "b183a430-c6c7-448b-8552-e792ac4f2137",
+  "createdTimestamp" : 1739528686079,
+  "username" : "user011",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user011@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:09:25.04] Fetching groups for user b183a430-c6c7-448b-8552-e792ac4f2137... 
+
+[ 5:09:30.83] Groups for b183a430-c6c7-448b-8552-e792ac4f2137: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:09:31.25] Successfully processed user b183a430-c6c7-448b-8552-e792ac4f2137. 
+------------------------------------ 
+[ 5:09:31.34] Processing user ID: 2bc2a1d3-adeb-4c78-9a99-2a232d28f443 
+[ 5:09:31.40] Fetching details for user 2bc2a1d3-adeb-4c78-9a99-2a232d28f443... 
+
+[ 5:09:37.28] User details for 2bc2a1d3-adeb-4c78-9a99-2a232d28f443: 
+{
+  "id" : "2bc2a1d3-adeb-4c78-9a99-2a232d28f443",
+  "createdTimestamp" : 1739528704296,
+  "username" : "user012",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user012@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:09:37.46] Fetching groups for user 2bc2a1d3-adeb-4c78-9a99-2a232d28f443... 
+
+[ 5:09:43.24] Groups for 2bc2a1d3-adeb-4c78-9a99-2a232d28f443: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:09:43.66] Successfully processed user 2bc2a1d3-adeb-4c78-9a99-2a232d28f443. 
+------------------------------------ 
+[ 5:09:43.75] Processing user ID: b2dc4a79-2c8b-4a43-8e81-71b926ac2675 
+[ 5:09:43.80] Fetching details for user b2dc4a79-2c8b-4a43-8e81-71b926ac2675... 
+
+[ 5:09:50.00] User details for b2dc4a79-2c8b-4a43-8e81-71b926ac2675: 
+{
+  "id" : "b2dc4a79-2c8b-4a43-8e81-71b926ac2675",
+  "createdTimestamp" : 1739528722091,
+  "username" : "user013",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user013@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:09:50.18] Fetching groups for user b2dc4a79-2c8b-4a43-8e81-71b926ac2675... 
+
+[ 5:09:55.97] Groups for b2dc4a79-2c8b-4a43-8e81-71b926ac2675: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:09:56.38] Successfully processed user b2dc4a79-2c8b-4a43-8e81-71b926ac2675. 
+------------------------------------ 
+[ 5:09:56.46] Processing user ID: c2ae229b-da4e-49ed-a967-7a893cc93982 
+[ 5:09:56.54] Fetching details for user c2ae229b-da4e-49ed-a967-7a893cc93982... 
+
+[ 5:10:02.62] User details for c2ae229b-da4e-49ed-a967-7a893cc93982: 
+{
+  "id" : "c2ae229b-da4e-49ed-a967-7a893cc93982",
+  "createdTimestamp" : 1739528740179,
+  "username" : "user014",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user014@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:10:02.82] Fetching groups for user c2ae229b-da4e-49ed-a967-7a893cc93982... 
+
+[ 5:10:09.06] Groups for c2ae229b-da4e-49ed-a967-7a893cc93982: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:10:09.49] Successfully processed user c2ae229b-da4e-49ed-a967-7a893cc93982. 
+------------------------------------ 
+[ 5:10:09.57] Processing user ID: 11c96e23-43d6-4d49-a810-08a462e3833c 
+[ 5:10:09.61] Fetching details for user 11c96e23-43d6-4d49-a810-08a462e3833c... 
+
+[ 5:10:15.65] User details for 11c96e23-43d6-4d49-a810-08a462e3833c: 
+{
+  "id" : "11c96e23-43d6-4d49-a810-08a462e3833c",
+  "createdTimestamp" : 1739528757481,
+  "username" : "user015",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user015@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:10:15.81] Fetching groups for user 11c96e23-43d6-4d49-a810-08a462e3833c... 
+
+[ 5:10:21.45] Groups for 11c96e23-43d6-4d49-a810-08a462e3833c: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:10:21.89] Successfully processed user 11c96e23-43d6-4d49-a810-08a462e3833c. 
+------------------------------------ 
+[ 5:10:21.99] Processing user ID: 3682f9f5-0fce-4442-9887-3f1deebe3569 
+[ 5:10:22.04] Fetching details for user 3682f9f5-0fce-4442-9887-3f1deebe3569... 
+
+[ 5:10:27.81] User details for 3682f9f5-0fce-4442-9887-3f1deebe3569: 
+{
+  "id" : "3682f9f5-0fce-4442-9887-3f1deebe3569",
+  "createdTimestamp" : 1739528775911,
+  "username" : "user016",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user016@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:10:28.02] Fetching groups for user 3682f9f5-0fce-4442-9887-3f1deebe3569... 
+
+[ 5:10:33.99] Groups for 3682f9f5-0fce-4442-9887-3f1deebe3569: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:10:34.42] Successfully processed user 3682f9f5-0fce-4442-9887-3f1deebe3569. 
+------------------------------------ 
+[ 5:10:34.50] Processing user ID: f24453c9-5b66-4a2c-9db1-f00205c6f02d 
+[ 5:10:34.55] Fetching details for user f24453c9-5b66-4a2c-9db1-f00205c6f02d... 
+
+[ 5:10:40.93] User details for f24453c9-5b66-4a2c-9db1-f00205c6f02d: 
+{
+  "id" : "f24453c9-5b66-4a2c-9db1-f00205c6f02d",
+  "createdTimestamp" : 1739528794725,
+  "username" : "user017",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user017@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:10:41.12] Fetching groups for user f24453c9-5b66-4a2c-9db1-f00205c6f02d... 
+
+[ 5:10:47.38] Groups for f24453c9-5b66-4a2c-9db1-f00205c6f02d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:10:47.80] Successfully processed user f24453c9-5b66-4a2c-9db1-f00205c6f02d. 
+------------------------------------ 
+[ 5:10:47.89] Processing user ID: 81443c39-6fba-43b4-b5b2-8deb68524cb1 
+[ 5:10:47.93] Fetching details for user 81443c39-6fba-43b4-b5b2-8deb68524cb1... 
+
+[ 5:10:53.95] User details for 81443c39-6fba-43b4-b5b2-8deb68524cb1: 
+{
+  "id" : "81443c39-6fba-43b4-b5b2-8deb68524cb1",
+  "createdTimestamp" : 1739528813903,
+  "username" : "user018",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user018@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:10:54.13] Fetching groups for user 81443c39-6fba-43b4-b5b2-8deb68524cb1... 
+
+[ 5:11:00.14] Groups for 81443c39-6fba-43b4-b5b2-8deb68524cb1: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:11:00.53] Successfully processed user 81443c39-6fba-43b4-b5b2-8deb68524cb1. 
+------------------------------------ 
+[ 5:11:00.61] Processing user ID: f521e301-2c16-460a-8a90-50f8b47e80ff 
+[ 5:11:00.66] Fetching details for user f521e301-2c16-460a-8a90-50f8b47e80ff... 
+
+[ 5:11:06.44] User details for f521e301-2c16-460a-8a90-50f8b47e80ff: 
+{
+  "id" : "f521e301-2c16-460a-8a90-50f8b47e80ff",
+  "createdTimestamp" : 1739528832600,
+  "username" : "user019",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user019@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:11:06.64] Fetching groups for user f521e301-2c16-460a-8a90-50f8b47e80ff... 
+
+[ 5:11:12.69] Groups for f521e301-2c16-460a-8a90-50f8b47e80ff: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:11:13.11] Successfully processed user f521e301-2c16-460a-8a90-50f8b47e80ff. 
+------------------------------------ 
+[ 5:11:13.19] Processing user ID: 97272c13-20f6-4646-b243-afeb8518fef7 
+[ 5:11:13.23] Fetching details for user 97272c13-20f6-4646-b243-afeb8518fef7... 
+
+[ 5:11:19.13] User details for 97272c13-20f6-4646-b243-afeb8518fef7: 
+{
+  "id" : "97272c13-20f6-4646-b243-afeb8518fef7",
+  "createdTimestamp" : 1739528850952,
+  "username" : "user020",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user020@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:11:19.33] Fetching groups for user 97272c13-20f6-4646-b243-afeb8518fef7... 
+
+[ 5:11:25.20] Groups for 97272c13-20f6-4646-b243-afeb8518fef7: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:11:25.62] Successfully processed user 97272c13-20f6-4646-b243-afeb8518fef7. 
+------------------------------------ 
+[ 5:11:25.70] Processing user ID: ece2ece4-783c-4748-a5a0-1ab4349ab5d8 
+[ 5:11:25.76] Fetching details for user ece2ece4-783c-4748-a5a0-1ab4349ab5d8... 
+
+[ 5:11:31.60] User details for ece2ece4-783c-4748-a5a0-1ab4349ab5d8: 
+{
+  "id" : "ece2ece4-783c-4748-a5a0-1ab4349ab5d8",
+  "createdTimestamp" : 1739528869833,
+  "username" : "user021",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user021@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:11:31.78] Fetching groups for user ece2ece4-783c-4748-a5a0-1ab4349ab5d8... 
+
+[ 5:11:37.98] Groups for ece2ece4-783c-4748-a5a0-1ab4349ab5d8: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:11:38.38] Successfully processed user ece2ece4-783c-4748-a5a0-1ab4349ab5d8. 
+------------------------------------ 
+[ 5:11:38.47] Processing user ID: 324320b0-4bfb-45ff-b774-b71b29ac638a 
+[ 5:11:38.51] Fetching details for user 324320b0-4bfb-45ff-b774-b71b29ac638a... 
+
+[ 5:11:44.73] User details for 324320b0-4bfb-45ff-b774-b71b29ac638a: 
+{
+  "id" : "324320b0-4bfb-45ff-b774-b71b29ac638a",
+  "createdTimestamp" : 1739528887926,
+  "username" : "user022",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user022@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:11:44.93] Fetching groups for user 324320b0-4bfb-45ff-b774-b71b29ac638a... 
+
+[ 5:11:50.99] Groups for 324320b0-4bfb-45ff-b774-b71b29ac638a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:11:51.40] Successfully processed user 324320b0-4bfb-45ff-b774-b71b29ac638a. 
+------------------------------------ 
+[ 5:11:51.50] Processing user ID: 5ccd1a0b-7312-4d1b-9301-b74da62294dc 
+[ 5:11:51.56] Fetching details for user 5ccd1a0b-7312-4d1b-9301-b74da62294dc... 
+
+[ 5:11:57.46] User details for 5ccd1a0b-7312-4d1b-9301-b74da62294dc: 
+{
+  "id" : "5ccd1a0b-7312-4d1b-9301-b74da62294dc",
+  "createdTimestamp" : 1739528906378,
+  "username" : "user023",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user023@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:11:57.68] Fetching groups for user 5ccd1a0b-7312-4d1b-9301-b74da62294dc... 
+
+[ 5:12:03.15] Groups for 5ccd1a0b-7312-4d1b-9301-b74da62294dc: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:12:03.46] Successfully processed user 5ccd1a0b-7312-4d1b-9301-b74da62294dc. 
+------------------------------------ 
+[ 5:12:03.54] Processing user ID: 4ec54045-de03-4a86-b69e-64c279b35cc0 
+[ 5:12:03.59] Fetching details for user 4ec54045-de03-4a86-b69e-64c279b35cc0... 
+
+[ 5:12:09.60] User details for 4ec54045-de03-4a86-b69e-64c279b35cc0: 
+{
+  "id" : "4ec54045-de03-4a86-b69e-64c279b35cc0",
+  "createdTimestamp" : 1739528924265,
+  "username" : "user024",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user024@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:12:09.78] Fetching groups for user 4ec54045-de03-4a86-b69e-64c279b35cc0... 
+
+[ 5:12:15.95] Groups for 4ec54045-de03-4a86-b69e-64c279b35cc0: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:12:16.35] Successfully processed user 4ec54045-de03-4a86-b69e-64c279b35cc0. 
+------------------------------------ 
+[ 5:12:16.43] Processing user ID: 85011cfa-0a2a-4c3e-8b31-f875e08600c2 
+[ 5:12:16.47] Fetching details for user 85011cfa-0a2a-4c3e-8b31-f875e08600c2... 
+
+[ 5:12:22.66] User details for 85011cfa-0a2a-4c3e-8b31-f875e08600c2: 
+{
+  "id" : "85011cfa-0a2a-4c3e-8b31-f875e08600c2",
+  "createdTimestamp" : 1739528942252,
+  "username" : "user025",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user025@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:12:22.84] Fetching groups for user 85011cfa-0a2a-4c3e-8b31-f875e08600c2... 
+
+[ 5:12:28.80] Groups for 85011cfa-0a2a-4c3e-8b31-f875e08600c2: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:12:29.26] Successfully processed user 85011cfa-0a2a-4c3e-8b31-f875e08600c2. 
+------------------------------------ 
+[ 5:12:29.35] Processing user ID: 67ff46e5-cd7c-487d-bf5f-b88d2023002e 
+[ 5:12:29.39] Fetching details for user 67ff46e5-cd7c-487d-bf5f-b88d2023002e... 
+
+[ 5:12:35.27] User details for 67ff46e5-cd7c-487d-bf5f-b88d2023002e: 
+{
+  "id" : "67ff46e5-cd7c-487d-bf5f-b88d2023002e",
+  "createdTimestamp" : 1739528959704,
+  "username" : "user026",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user026@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:12:35.45] Fetching groups for user 67ff46e5-cd7c-487d-bf5f-b88d2023002e... 
+
+[ 5:12:41.39] Groups for 67ff46e5-cd7c-487d-bf5f-b88d2023002e: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:12:41.79] Successfully processed user 67ff46e5-cd7c-487d-bf5f-b88d2023002e. 
+------------------------------------ 
+[ 5:12:41.87] Processing user ID: a8277012-8631-414c-9bd0-0e174fb3cf61 
+[ 5:12:41.92] Fetching details for user a8277012-8631-414c-9bd0-0e174fb3cf61... 
+
+[ 5:12:47.45] User details for a8277012-8631-414c-9bd0-0e174fb3cf61: 
+{
+  "id" : "a8277012-8631-414c-9bd0-0e174fb3cf61",
+  "createdTimestamp" : 1739528977845,
+  "username" : "user027",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user027@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:12:47.63] Fetching groups for user a8277012-8631-414c-9bd0-0e174fb3cf61... 
+
+[ 5:12:53.23] Groups for a8277012-8631-414c-9bd0-0e174fb3cf61: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:12:53.65] Successfully processed user a8277012-8631-414c-9bd0-0e174fb3cf61. 
+------------------------------------ 
+[ 5:12:53.73] Processing user ID: 7b240092-9399-4145-a1c8-633a6bbe6e46 
+[ 5:12:53.79] Fetching details for user 7b240092-9399-4145-a1c8-633a6bbe6e46... 
+
+[ 5:12:59.68] User details for 7b240092-9399-4145-a1c8-633a6bbe6e46: 
+{
+  "id" : "7b240092-9399-4145-a1c8-633a6bbe6e46",
+  "createdTimestamp" : 1739528997012,
+  "username" : "user028",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user028@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:12:59.86] Fetching groups for user 7b240092-9399-4145-a1c8-633a6bbe6e46... 
+
+[ 5:13:05.79] Groups for 7b240092-9399-4145-a1c8-633a6bbe6e46: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:13:06.22] Successfully processed user 7b240092-9399-4145-a1c8-633a6bbe6e46. 
+------------------------------------ 
+[ 5:13:06.30] Processing user ID: 4b3e594d-36ec-4ca9-a6f6-6d355cef73af 
+[ 5:13:06.34] Fetching details for user 4b3e594d-36ec-4ca9-a6f6-6d355cef73af... 
+
+[ 5:13:12.28] User details for 4b3e594d-36ec-4ca9-a6f6-6d355cef73af: 
+{
+  "id" : "4b3e594d-36ec-4ca9-a6f6-6d355cef73af",
+  "createdTimestamp" : 1739529015416,
+  "username" : "user029",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user029@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:13:12.48] Fetching groups for user 4b3e594d-36ec-4ca9-a6f6-6d355cef73af... 
+
+[ 5:13:17.61] Groups for 4b3e594d-36ec-4ca9-a6f6-6d355cef73af: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:13:17.95] Successfully processed user 4b3e594d-36ec-4ca9-a6f6-6d355cef73af. 
+------------------------------------ 
+[ 5:13:18.01] Processing user ID: 80b86037-2e9c-483e-9843-48c450a3819a 
+[ 5:13:18.06] Fetching details for user 80b86037-2e9c-483e-9843-48c450a3819a... 
+
+[ 5:13:23.63] User details for 80b86037-2e9c-483e-9843-48c450a3819a: 
+{
+  "id" : "80b86037-2e9c-483e-9843-48c450a3819a",
+  "createdTimestamp" : 1739529033799,
+  "username" : "user030",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user030@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:13:23.83] Fetching groups for user 80b86037-2e9c-483e-9843-48c450a3819a... 
+
+[ 5:13:29.56] Groups for 80b86037-2e9c-483e-9843-48c450a3819a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:13:29.95] Successfully processed user 80b86037-2e9c-483e-9843-48c450a3819a. 
+------------------------------------ 
+[ 5:13:30.01] Processing user ID: 875982e7-e8e7-4e04-8c1e-01a44d5cbecc 
+[ 5:13:30.05] Fetching details for user 875982e7-e8e7-4e04-8c1e-01a44d5cbecc... 
+
+[ 5:13:36.59] User details for 875982e7-e8e7-4e04-8c1e-01a44d5cbecc: 
+{
+  "id" : "875982e7-e8e7-4e04-8c1e-01a44d5cbecc",
+  "createdTimestamp" : 1739529052414,
+  "username" : "user031",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user031@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:13:36.79] Fetching groups for user 875982e7-e8e7-4e04-8c1e-01a44d5cbecc... 
+
+[ 5:13:42.90] Groups for 875982e7-e8e7-4e04-8c1e-01a44d5cbecc: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:13:43.39] Successfully processed user 875982e7-e8e7-4e04-8c1e-01a44d5cbecc. 
+------------------------------------ 
+[ 5:13:43.47] Processing user ID: 0571752c-479a-4e61-8344-f03d275a802e 
+[ 5:13:43.51] Fetching details for user 0571752c-479a-4e61-8344-f03d275a802e... 
+
+[ 5:13:49.51] User details for 0571752c-479a-4e61-8344-f03d275a802e: 
+{
+  "id" : "0571752c-479a-4e61-8344-f03d275a802e",
+  "createdTimestamp" : 1739529070688,
+  "username" : "user032",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user032@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:13:49.69] Fetching groups for user 0571752c-479a-4e61-8344-f03d275a802e... 
+
+[ 5:13:55.87] Groups for 0571752c-479a-4e61-8344-f03d275a802e: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:13:56.29] Successfully processed user 0571752c-479a-4e61-8344-f03d275a802e. 
+------------------------------------ 
+[ 5:13:56.38] Processing user ID: 7af0eeff-acd5-4317-a470-ac5a924293fb 
+[ 5:13:56.42] Fetching details for user 7af0eeff-acd5-4317-a470-ac5a924293fb... 
+
+[ 5:14:02.38] User details for 7af0eeff-acd5-4317-a470-ac5a924293fb: 
+{
+  "id" : "7af0eeff-acd5-4317-a470-ac5a924293fb",
+  "createdTimestamp" : 1739529089824,
+  "username" : "user033",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user033@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:14:02.58] Fetching groups for user 7af0eeff-acd5-4317-a470-ac5a924293fb... 
+
+[ 5:14:08.78] Groups for 7af0eeff-acd5-4317-a470-ac5a924293fb: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:14:09.19] Successfully processed user 7af0eeff-acd5-4317-a470-ac5a924293fb. 
+------------------------------------ 
+[ 5:14:09.27] Processing user ID: 4b800242-1421-492f-bb5a-89b5c81714c4 
+[ 5:14:09.35] Fetching details for user 4b800242-1421-492f-bb5a-89b5c81714c4... 
+
+[ 5:14:15.35] User details for 4b800242-1421-492f-bb5a-89b5c81714c4: 
+{
+  "id" : "4b800242-1421-492f-bb5a-89b5c81714c4",
+  "createdTimestamp" : 1739529108787,
+  "username" : "user034",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user034@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:14:15.53] Fetching groups for user 4b800242-1421-492f-bb5a-89b5c81714c4... 
+
+[ 5:14:21.49] Groups for 4b800242-1421-492f-bb5a-89b5c81714c4: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:14:21.94] Successfully processed user 4b800242-1421-492f-bb5a-89b5c81714c4. 
+------------------------------------ 
+[ 5:14:22.03] Processing user ID: ba13cb5a-a407-493e-9160-de8e342b0f05 
+[ 5:14:22.07] Fetching details for user ba13cb5a-a407-493e-9160-de8e342b0f05... 
+
+[ 5:14:27.85] User details for ba13cb5a-a407-493e-9160-de8e342b0f05: 
+{
+  "id" : "ba13cb5a-a407-493e-9160-de8e342b0f05",
+  "createdTimestamp" : 1739529127662,
+  "username" : "user035",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user035@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:14:28.12] Fetching groups for user ba13cb5a-a407-493e-9160-de8e342b0f05... 
+
+[ 5:14:34.26] Groups for ba13cb5a-a407-493e-9160-de8e342b0f05: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:14:34.72] Successfully processed user ba13cb5a-a407-493e-9160-de8e342b0f05. 
+------------------------------------ 
+[ 5:14:34.84] Processing user ID: c4715447-d2ff-442c-b2a1-92090414ef0a 
+[ 5:14:34.89] Fetching details for user c4715447-d2ff-442c-b2a1-92090414ef0a... 
+
+[ 5:14:41.40] User details for c4715447-d2ff-442c-b2a1-92090414ef0a: 
+{
+  "id" : "c4715447-d2ff-442c-b2a1-92090414ef0a",
+  "createdTimestamp" : 1739529146679,
+  "username" : "user036",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user036@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:14:41.56] Fetching groups for user c4715447-d2ff-442c-b2a1-92090414ef0a... 
+
+[ 5:14:47.45] Groups for c4715447-d2ff-442c-b2a1-92090414ef0a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:14:47.88] Successfully processed user c4715447-d2ff-442c-b2a1-92090414ef0a. 
+------------------------------------ 
+[ 5:14:47.97] Processing user ID: adb605d6-4730-4f4c-92a8-d25731a18096 
+[ 5:14:48.02] Fetching details for user adb605d6-4730-4f4c-92a8-d25731a18096... 
+
+[ 5:14:52.79] User details for adb605d6-4730-4f4c-92a8-d25731a18096: 
+{
+  "id" : "adb605d6-4730-4f4c-92a8-d25731a18096",
+  "createdTimestamp" : 1739529165561,
+  "username" : "user037",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user037@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:14:52.99] Fetching groups for user adb605d6-4730-4f4c-92a8-d25731a18096... 
+
+[ 5:14:58.97] Groups for adb605d6-4730-4f4c-92a8-d25731a18096: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:14:59.39] Successfully processed user adb605d6-4730-4f4c-92a8-d25731a18096. 
+------------------------------------ 
+[ 5:14:59.47] Processing user ID: 3cbba50d-13ff-4b41-94f6-b60aba0e025a 
+[ 5:14:59.52] Fetching details for user 3cbba50d-13ff-4b41-94f6-b60aba0e025a... 
+
+[ 5:15:05.33] User details for 3cbba50d-13ff-4b41-94f6-b60aba0e025a: 
+{
+  "id" : "3cbba50d-13ff-4b41-94f6-b60aba0e025a",
+  "createdTimestamp" : 1739529184261,
+  "username" : "user038",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user038@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:15:05.53] Fetching groups for user 3cbba50d-13ff-4b41-94f6-b60aba0e025a... 
+
+[ 5:15:11.25] Groups for 3cbba50d-13ff-4b41-94f6-b60aba0e025a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:15:11.72] Successfully processed user 3cbba50d-13ff-4b41-94f6-b60aba0e025a. 
+------------------------------------ 
+[ 5:15:11.80] Processing user ID: a08a6b36-8bf1-4e16-b170-cbe217bda056 
+[ 5:15:11.86] Fetching details for user a08a6b36-8bf1-4e16-b170-cbe217bda056... 
+
+[ 5:15:18.19] User details for a08a6b36-8bf1-4e16-b170-cbe217bda056: 
+{
+  "id" : "a08a6b36-8bf1-4e16-b170-cbe217bda056",
+  "createdTimestamp" : 1739529202488,
+  "username" : "user039",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user039@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:15:18.37] Fetching groups for user a08a6b36-8bf1-4e16-b170-cbe217bda056... 
+
+[ 5:15:24.46] Groups for a08a6b36-8bf1-4e16-b170-cbe217bda056: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:15:24.84] Successfully processed user a08a6b36-8bf1-4e16-b170-cbe217bda056. 
+------------------------------------ 
+[ 5:15:24.92] Processing user ID: 7d88d690-3696-4f95-98b3-c1132515c115 
+[ 5:15:24.97] Fetching details for user 7d88d690-3696-4f95-98b3-c1132515c115... 
+
+[ 5:15:30.96] User details for 7d88d690-3696-4f95-98b3-c1132515c115: 
+{
+  "id" : "7d88d690-3696-4f95-98b3-c1132515c115",
+  "createdTimestamp" : 1739529222351,
+  "username" : "user040",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user040@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:15:31.19] Fetching groups for user 7d88d690-3696-4f95-98b3-c1132515c115... 
+
+[ 5:15:37.25] Groups for 7d88d690-3696-4f95-98b3-c1132515c115: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:15:37.67] Successfully processed user 7d88d690-3696-4f95-98b3-c1132515c115. 
+------------------------------------ 
+[ 5:15:37.75] Processing user ID: 055c9f0d-e2bf-426f-b42f-96c6d777b9fa 
+[ 5:15:37.81] Fetching details for user 055c9f0d-e2bf-426f-b42f-96c6d777b9fa... 
+
+[ 5:15:43.77] User details for 055c9f0d-e2bf-426f-b42f-96c6d777b9fa: 
+{
+  "id" : "055c9f0d-e2bf-426f-b42f-96c6d777b9fa",
+  "createdTimestamp" : 1739529240780,
+  "username" : "user041",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user041@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:15:43.94] Fetching groups for user 055c9f0d-e2bf-426f-b42f-96c6d777b9fa... 
+
+[ 5:15:49.85] Groups for 055c9f0d-e2bf-426f-b42f-96c6d777b9fa: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:15:50.29] Successfully processed user 055c9f0d-e2bf-426f-b42f-96c6d777b9fa. 
+------------------------------------ 
+[ 5:15:50.37] Processing user ID: 1cd0b084-4465-4793-b264-c362bab4fa93 
+[ 5:15:50.43] Fetching details for user 1cd0b084-4465-4793-b264-c362bab4fa93... 
+
+[ 5:15:56.36] User details for 1cd0b084-4465-4793-b264-c362bab4fa93: 
+{
+  "id" : "1cd0b084-4465-4793-b264-c362bab4fa93",
+  "createdTimestamp" : 1739529259683,
+  "username" : "user042",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user042@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:15:56.60] Fetching groups for user 1cd0b084-4465-4793-b264-c362bab4fa93... 
+
+[ 5:16:02.30] Groups for 1cd0b084-4465-4793-b264-c362bab4fa93: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:16:02.74] Successfully processed user 1cd0b084-4465-4793-b264-c362bab4fa93. 
+------------------------------------ 
+[ 5:16:02.82] Processing user ID: 21bd0c1c-e71c-4966-b976-e251ce73b1da 
+[ 5:16:02.86] Fetching details for user 21bd0c1c-e71c-4966-b976-e251ce73b1da... 
+
+[ 5:16:08.54] User details for 21bd0c1c-e71c-4966-b976-e251ce73b1da: 
+{
+  "id" : "21bd0c1c-e71c-4966-b976-e251ce73b1da",
+  "createdTimestamp" : 1739529278712,
+  "username" : "user043",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user043@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:16:08.70] Fetching groups for user 21bd0c1c-e71c-4966-b976-e251ce73b1da... 
+
+[ 5:16:13.97] Groups for 21bd0c1c-e71c-4966-b976-e251ce73b1da: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:16:14.38] Successfully processed user 21bd0c1c-e71c-4966-b976-e251ce73b1da. 
+------------------------------------ 
+[ 5:16:14.48] Processing user ID: c321a4a4-e7c0-4778-9fee-5ea982f15319 
+[ 5:16:14.52] Fetching details for user c321a4a4-e7c0-4778-9fee-5ea982f15319... 
+
+[ 5:16:20.40] User details for c321a4a4-e7c0-4778-9fee-5ea982f15319: 
+{
+  "id" : "c321a4a4-e7c0-4778-9fee-5ea982f15319",
+  "createdTimestamp" : 1739529297395,
+  "username" : "user044",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user044@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:16:20.60] Fetching groups for user c321a4a4-e7c0-4778-9fee-5ea982f15319... 
+
+[ 5:16:26.55] Groups for c321a4a4-e7c0-4778-9fee-5ea982f15319: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:16:26.97] Successfully processed user c321a4a4-e7c0-4778-9fee-5ea982f15319. 
+------------------------------------ 
+[ 5:16:27.07] Processing user ID: 7e0bbf41-6df8-4cb1-806e-670e8fb13e0a 
+[ 5:16:27.12] Fetching details for user 7e0bbf41-6df8-4cb1-806e-670e8fb13e0a... 
+
+[ 5:16:32.75] User details for 7e0bbf41-6df8-4cb1-806e-670e8fb13e0a: 
+{
+  "id" : "7e0bbf41-6df8-4cb1-806e-670e8fb13e0a",
+  "createdTimestamp" : 1739529315426,
+  "username" : "user045",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user045@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:16:32.93] Fetching groups for user 7e0bbf41-6df8-4cb1-806e-670e8fb13e0a... 
+
+[ 5:16:38.52] Groups for 7e0bbf41-6df8-4cb1-806e-670e8fb13e0a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:16:38.91] Successfully processed user 7e0bbf41-6df8-4cb1-806e-670e8fb13e0a. 
+------------------------------------ 
+[ 5:16:39.01] Processing user ID: 2d0ae08f-a8a1-456a-a91d-30fad29ef9f9 
+[ 5:16:39.05] Fetching details for user 2d0ae08f-a8a1-456a-a91d-30fad29ef9f9... 
+
+[ 5:16:44.94] User details for 2d0ae08f-a8a1-456a-a91d-30fad29ef9f9: 
+{
+  "id" : "2d0ae08f-a8a1-456a-a91d-30fad29ef9f9",
+  "createdTimestamp" : 1739529335168,
+  "username" : "user046",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user046@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:16:45.13] Fetching groups for user 2d0ae08f-a8a1-456a-a91d-30fad29ef9f9... 
+
+[ 5:16:50.94] Groups for 2d0ae08f-a8a1-456a-a91d-30fad29ef9f9: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:16:51.37] Successfully processed user 2d0ae08f-a8a1-456a-a91d-30fad29ef9f9. 
+------------------------------------ 
+[ 5:16:51.45] Processing user ID: 921d916d-71a3-49e8-a49f-ee4e65324bd6 
+[ 5:16:51.49] Fetching details for user 921d916d-71a3-49e8-a49f-ee4e65324bd6... 
+
+[ 5:16:57.25] User details for 921d916d-71a3-49e8-a49f-ee4e65324bd6: 
+{
+  "id" : "921d916d-71a3-49e8-a49f-ee4e65324bd6",
+  "createdTimestamp" : 1739529353747,
+  "username" : "user047",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user047@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:16:57.43] Fetching groups for user 921d916d-71a3-49e8-a49f-ee4e65324bd6... 
+
+[ 5:17:03.19] Groups for 921d916d-71a3-49e8-a49f-ee4e65324bd6: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:17:03.59] Successfully processed user 921d916d-71a3-49e8-a49f-ee4e65324bd6. 
+------------------------------------ 
+[ 5:17:03.67] Processing user ID: e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9 
+[ 5:17:03.71] Fetching details for user e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9... 
+
+[ 5:17:09.76] User details for e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9: 
+{
+  "id" : "e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9",
+  "createdTimestamp" : 1739529371900,
+  "username" : "user048",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user048@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:17:09.93] Fetching groups for user e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9... 
+
+[ 5:17:15.80] Groups for e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:17:16.20] Successfully processed user e3ddafac-6457-4bc1-8f5c-0bf9e7f47bc9. 
+------------------------------------ 
+[ 5:17:16.28] Processing user ID: ac38c66f-3fa3-4c80-bd45-abf4f376eb07 
+[ 5:17:16.32] Fetching details for user ac38c66f-3fa3-4c80-bd45-abf4f376eb07... 
+
+[ 5:17:22.12] User details for ac38c66f-3fa3-4c80-bd45-abf4f376eb07: 
+{
+  "id" : "ac38c66f-3fa3-4c80-bd45-abf4f376eb07",
+  "createdTimestamp" : 1739529390335,
+  "username" : "user049",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user049@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:17:22.30] Fetching groups for user ac38c66f-3fa3-4c80-bd45-abf4f376eb07... 
+
+[ 5:17:28.40] Groups for ac38c66f-3fa3-4c80-bd45-abf4f376eb07: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:17:28.80] Successfully processed user ac38c66f-3fa3-4c80-bd45-abf4f376eb07. 
+------------------------------------ 
+[ 5:17:28.90] Processing user ID: 08662ac4-f218-4888-a8f5-ba8e5ac15769 
+[ 5:17:28.94] Fetching details for user 08662ac4-f218-4888-a8f5-ba8e5ac15769... 
+
+[ 5:17:35.04] User details for 08662ac4-f218-4888-a8f5-ba8e5ac15769: 
+{
+  "id" : "08662ac4-f218-4888-a8f5-ba8e5ac15769",
+  "createdTimestamp" : 1739529408644,
+  "username" : "user050",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user050@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:17:35.22] Fetching groups for user 08662ac4-f218-4888-a8f5-ba8e5ac15769... 
+
+[ 5:17:41.11] Groups for 08662ac4-f218-4888-a8f5-ba8e5ac15769: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:17:41.52] Successfully processed user 08662ac4-f218-4888-a8f5-ba8e5ac15769. 
+------------------------------------ 
+[ 5:17:41.60] Processing user ID: 8fefe3ff-58d6-4b7c-8f03-5418d49c61c5 
+[ 5:17:41.64] Fetching details for user 8fefe3ff-58d6-4b7c-8f03-5418d49c61c5... 
+
+[ 5:17:47.60] User details for 8fefe3ff-58d6-4b7c-8f03-5418d49c61c5: 
+{
+  "id" : "8fefe3ff-58d6-4b7c-8f03-5418d49c61c5",
+  "createdTimestamp" : 1739529427398,
+  "username" : "user051",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user051@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:17:47.78] Fetching groups for user 8fefe3ff-58d6-4b7c-8f03-5418d49c61c5... 
+
+[ 5:17:53.67] Groups for 8fefe3ff-58d6-4b7c-8f03-5418d49c61c5: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:17:54.09] Successfully processed user 8fefe3ff-58d6-4b7c-8f03-5418d49c61c5. 
+------------------------------------ 
+[ 5:17:54.18] Processing user ID: 1e678618-e70b-4905-90ca-a0da6afd29cf 
+[ 5:17:54.22] Fetching details for user 1e678618-e70b-4905-90ca-a0da6afd29cf... 
+
+[ 5:17:59.87] User details for 1e678618-e70b-4905-90ca-a0da6afd29cf: 
+{
+  "id" : "1e678618-e70b-4905-90ca-a0da6afd29cf",
+  "createdTimestamp" : 1739529445247,
+  "username" : "user052",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user052@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:18:00.07] Fetching groups for user 1e678618-e70b-4905-90ca-a0da6afd29cf... 
+
+[ 5:18:05.95] Groups for 1e678618-e70b-4905-90ca-a0da6afd29cf: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:18:06.35] Successfully processed user 1e678618-e70b-4905-90ca-a0da6afd29cf. 
+------------------------------------ 
+[ 5:18:06.43] Processing user ID: 1688aed6-a62b-4816-bc37-ec96116778c8 
+[ 5:18:06.48] Fetching details for user 1688aed6-a62b-4816-bc37-ec96116778c8... 
+
+[ 5:18:12.29] User details for 1688aed6-a62b-4816-bc37-ec96116778c8: 
+{
+  "id" : "1688aed6-a62b-4816-bc37-ec96116778c8",
+  "createdTimestamp" : 1739529463006,
+  "username" : "user053",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user053@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:18:12.47] Fetching groups for user 1688aed6-a62b-4816-bc37-ec96116778c8... 
+
+[ 5:18:18.20] Groups for 1688aed6-a62b-4816-bc37-ec96116778c8: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:18:18.62] Successfully processed user 1688aed6-a62b-4816-bc37-ec96116778c8. 
+------------------------------------ 
+[ 5:18:18.71] Processing user ID: d1487afe-6a72-4aa3-843a-6da631f2fb92 
+[ 5:18:18.75] Fetching details for user d1487afe-6a72-4aa3-843a-6da631f2fb92... 
+
+[ 5:18:24.70] User details for d1487afe-6a72-4aa3-843a-6da631f2fb92: 
+{
+  "id" : "d1487afe-6a72-4aa3-843a-6da631f2fb92",
+  "createdTimestamp" : 1739529481680,
+  "username" : "user054",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user054@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:18:24.88] Fetching groups for user d1487afe-6a72-4aa3-843a-6da631f2fb92... 
+
+[ 5:18:30.74] Groups for d1487afe-6a72-4aa3-843a-6da631f2fb92: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:18:31.20] Successfully processed user d1487afe-6a72-4aa3-843a-6da631f2fb92. 
+------------------------------------ 
+[ 5:18:31.28] Processing user ID: 066bac01-9d95-4b81-8e5f-3692137dfb2d 
+[ 5:18:31.33] Fetching details for user 066bac01-9d95-4b81-8e5f-3692137dfb2d... 
+
+[ 5:18:37.63] User details for 066bac01-9d95-4b81-8e5f-3692137dfb2d: 
+{
+  "id" : "066bac01-9d95-4b81-8e5f-3692137dfb2d",
+  "createdTimestamp" : 1739529500359,
+  "username" : "user055",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user055@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:18:37.81] Fetching groups for user 066bac01-9d95-4b81-8e5f-3692137dfb2d... 
+
+[ 5:18:43.89] Groups for 066bac01-9d95-4b81-8e5f-3692137dfb2d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:18:44.29] Successfully processed user 066bac01-9d95-4b81-8e5f-3692137dfb2d. 
+------------------------------------ 
+[ 5:18:44.37] Processing user ID: 63aca6a9-f522-462d-9e0e-3f1f62c0b0d3 
+[ 5:18:44.43] Fetching details for user 63aca6a9-f522-462d-9e0e-3f1f62c0b0d3... 
+
+[ 5:18:50.47] User details for 63aca6a9-f522-462d-9e0e-3f1f62c0b0d3: 
+{
+  "id" : "63aca6a9-f522-462d-9e0e-3f1f62c0b0d3",
+  "createdTimestamp" : 1739529518180,
+  "username" : "user056",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user056@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:18:50.65] Fetching groups for user 63aca6a9-f522-462d-9e0e-3f1f62c0b0d3... 
+
+[ 5:18:56.51] Groups for 63aca6a9-f522-462d-9e0e-3f1f62c0b0d3: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:18:56.92] Successfully processed user 63aca6a9-f522-462d-9e0e-3f1f62c0b0d3. 
+------------------------------------ 
+[ 5:18:56.99] Processing user ID: 023853d8-d3a8-4511-87ad-5a72b4cfded0 
+[ 5:18:57.05] Fetching details for user 023853d8-d3a8-4511-87ad-5a72b4cfded0... 
+
+[ 5:19:02.95] User details for 023853d8-d3a8-4511-87ad-5a72b4cfded0: 
+{
+  "id" : "023853d8-d3a8-4511-87ad-5a72b4cfded0",
+  "createdTimestamp" : 1739529536410,
+  "username" : "user057",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user057@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:19:03.13] Fetching groups for user 023853d8-d3a8-4511-87ad-5a72b4cfded0... 
+
+[ 5:19:08.89] Groups for 023853d8-d3a8-4511-87ad-5a72b4cfded0: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:19:09.30] Successfully processed user 023853d8-d3a8-4511-87ad-5a72b4cfded0. 
+------------------------------------ 
+[ 5:19:09.38] Processing user ID: 95964ef3-1d14-48ee-8832-7373276a71af 
+[ 5:19:09.42] Fetching details for user 95964ef3-1d14-48ee-8832-7373276a71af... 
+
+[ 5:19:15.15] User details for 95964ef3-1d14-48ee-8832-7373276a71af: 
+{
+  "id" : "95964ef3-1d14-48ee-8832-7373276a71af",
+  "createdTimestamp" : 1739529553941,
+  "username" : "user058",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user058@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:19:15.34] Fetching groups for user 95964ef3-1d14-48ee-8832-7373276a71af... 
+
+[ 5:19:21.23] Groups for 95964ef3-1d14-48ee-8832-7373276a71af: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:19:21.65] Successfully processed user 95964ef3-1d14-48ee-8832-7373276a71af. 
+------------------------------------ 
+[ 5:19:21.74] Processing user ID: 43a00ec4-a194-440f-9c72-13a48150fa04 
+[ 5:19:21.78] Fetching details for user 43a00ec4-a194-440f-9c72-13a48150fa04... 
+
+[ 5:19:27.69] User details for 43a00ec4-a194-440f-9c72-13a48150fa04: 
+{
+  "id" : "43a00ec4-a194-440f-9c72-13a48150fa04",
+  "createdTimestamp" : 1739529571619,
+  "username" : "user059",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user059@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:19:27.86] Fetching groups for user 43a00ec4-a194-440f-9c72-13a48150fa04... 
+
+[ 5:19:33.41] Groups for 43a00ec4-a194-440f-9c72-13a48150fa04: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:19:33.81] Successfully processed user 43a00ec4-a194-440f-9c72-13a48150fa04. 
+------------------------------------ 
+[ 5:19:33.88] Processing user ID: c47654a3-066a-4eb2-ba04-ce3f602e2e73 
+[ 5:19:33.93] Fetching details for user c47654a3-066a-4eb2-ba04-ce3f602e2e73... 
+
+[ 5:19:40.08] User details for c47654a3-066a-4eb2-ba04-ce3f602e2e73: 
+{
+  "id" : "c47654a3-066a-4eb2-ba04-ce3f602e2e73",
+  "createdTimestamp" : 1739529590822,
+  "username" : "user060",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user060@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:19:40.28] Fetching groups for user c47654a3-066a-4eb2-ba04-ce3f602e2e73... 
+
+[ 5:19:46.23] Groups for c47654a3-066a-4eb2-ba04-ce3f602e2e73: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:19:46.64] Successfully processed user c47654a3-066a-4eb2-ba04-ce3f602e2e73. 
+------------------------------------ 
+[ 5:19:46.72] Processing user ID: 55374ced-6ba7-4f47-9ed1-f81225e92379 
+[ 5:19:46.76] Fetching details for user 55374ced-6ba7-4f47-9ed1-f81225e92379... 
+
+[ 5:19:52.55] User details for 55374ced-6ba7-4f47-9ed1-f81225e92379: 
+{
+  "id" : "55374ced-6ba7-4f47-9ed1-f81225e92379",
+  "createdTimestamp" : 1739529609619,
+  "username" : "user061",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user061@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:19:52.71] Fetching groups for user 55374ced-6ba7-4f47-9ed1-f81225e92379... 
+
+[ 5:19:58.61] Groups for 55374ced-6ba7-4f47-9ed1-f81225e92379: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:19:59.04] Successfully processed user 55374ced-6ba7-4f47-9ed1-f81225e92379. 
+------------------------------------ 
+[ 5:19:59.12] Processing user ID: 6436d6b4-6108-43c7-821a-a9c666bc7654 
+[ 5:19:59.17] Fetching details for user 6436d6b4-6108-43c7-821a-a9c666bc7654... 
+
+[ 5:20:05.02] User details for 6436d6b4-6108-43c7-821a-a9c666bc7654: 
+{
+  "id" : "6436d6b4-6108-43c7-821a-a9c666bc7654",
+  "createdTimestamp" : 1739529628467,
+  "username" : "user062",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user062@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:20:05.20] Fetching groups for user 6436d6b4-6108-43c7-821a-a9c666bc7654... 
+
+[ 5:20:11.12] Groups for 6436d6b4-6108-43c7-821a-a9c666bc7654: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:20:11.51] Successfully processed user 6436d6b4-6108-43c7-821a-a9c666bc7654. 
+------------------------------------ 
+[ 5:20:11.59] Processing user ID: 1155f6a0-4b30-47bb-91af-ba77c7ef0f2c 
+[ 5:20:11.64] Fetching details for user 1155f6a0-4b30-47bb-91af-ba77c7ef0f2c... 
+
+[ 5:20:17.41] User details for 1155f6a0-4b30-47bb-91af-ba77c7ef0f2c: 
+{
+  "id" : "1155f6a0-4b30-47bb-91af-ba77c7ef0f2c",
+  "createdTimestamp" : 1739529647543,
+  "username" : "user063",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user063@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:20:17.59] Fetching groups for user 1155f6a0-4b30-47bb-91af-ba77c7ef0f2c... 
+
+[ 5:20:22.89] Groups for 1155f6a0-4b30-47bb-91af-ba77c7ef0f2c: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:20:23.31] Successfully processed user 1155f6a0-4b30-47bb-91af-ba77c7ef0f2c. 
+------------------------------------ 
+[ 5:20:23.38] Processing user ID: 770c9dd6-6283-4e69-ae1a-58d48f0bbf4e 
+[ 5:20:23.43] Fetching details for user 770c9dd6-6283-4e69-ae1a-58d48f0bbf4e... 
+
+[ 5:20:29.13] User details for 770c9dd6-6283-4e69-ae1a-58d48f0bbf4e: 
+{
+  "id" : "770c9dd6-6283-4e69-ae1a-58d48f0bbf4e",
+  "createdTimestamp" : 1739529666187,
+  "username" : "user064",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user064@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:20:29.33] Fetching groups for user 770c9dd6-6283-4e69-ae1a-58d48f0bbf4e... 
+
+[ 5:20:35.19] Groups for 770c9dd6-6283-4e69-ae1a-58d48f0bbf4e: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:20:35.60] Successfully processed user 770c9dd6-6283-4e69-ae1a-58d48f0bbf4e. 
+------------------------------------ 
+[ 5:20:35.66] Processing user ID: e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b 
+[ 5:20:35.70] Fetching details for user e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b... 
+
+[ 5:20:41.56] User details for e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b: 
+{
+  "id" : "e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b",
+  "createdTimestamp" : 1739529684453,
+  "username" : "user065",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user065@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:20:41.73] Fetching groups for user e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b... 
+
+[ 5:20:47.37] Groups for e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:20:47.77] Successfully processed user e1d6753f-cbc1-4f3a-83f2-89a7bfac0b9b. 
+------------------------------------ 
+[ 5:20:47.84] Processing user ID: 09e99555-c18b-4115-a55c-d51f7eccfd81 
+[ 5:20:47.88] Fetching details for user 09e99555-c18b-4115-a55c-d51f7eccfd81... 
+
+[ 5:20:53.63] User details for 09e99555-c18b-4115-a55c-d51f7eccfd81: 
+{
+  "id" : "09e99555-c18b-4115-a55c-d51f7eccfd81",
+  "createdTimestamp" : 1739529702277,
+  "username" : "user066",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user066@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:20:53.81] Fetching groups for user 09e99555-c18b-4115-a55c-d51f7eccfd81... 
+
+[ 5:20:59.17] Groups for 09e99555-c18b-4115-a55c-d51f7eccfd81: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:20:59.50] Successfully processed user 09e99555-c18b-4115-a55c-d51f7eccfd81. 
+------------------------------------ 
+[ 5:20:59.57] Processing user ID: d745a26f-85ae-4bde-b648-2f9d6b3e24b2 
+[ 5:20:59.61] Fetching details for user d745a26f-85ae-4bde-b648-2f9d6b3e24b2... 
+
+[ 5:21:05.20] User details for d745a26f-85ae-4bde-b648-2f9d6b3e24b2: 
+{
+  "id" : "d745a26f-85ae-4bde-b648-2f9d6b3e24b2",
+  "createdTimestamp" : 1739529719749,
+  "username" : "user067",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user067@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:21:05.37] Fetching groups for user d745a26f-85ae-4bde-b648-2f9d6b3e24b2... 
+
+[ 5:21:11.13] Groups for d745a26f-85ae-4bde-b648-2f9d6b3e24b2: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:21:11.53] Successfully processed user d745a26f-85ae-4bde-b648-2f9d6b3e24b2. 
+------------------------------------ 
+[ 5:21:11.60] Processing user ID: 3a609b3d-daaf-4070-9295-254da750628a 
+[ 5:21:11.62] Fetching details for user 3a609b3d-daaf-4070-9295-254da750628a... 
+
+[ 5:21:16.97] User details for 3a609b3d-daaf-4070-9295-254da750628a: 
+{
+  "id" : "3a609b3d-daaf-4070-9295-254da750628a",
+  "createdTimestamp" : 1739529738632,
+  "username" : "user068",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user068@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:21:17.14] Fetching groups for user 3a609b3d-daaf-4070-9295-254da750628a... 
+
+[ 5:21:22.62] Groups for 3a609b3d-daaf-4070-9295-254da750628a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:21:23.02] Successfully processed user 3a609b3d-daaf-4070-9295-254da750628a. 
+------------------------------------ 
+[ 5:21:23.11] Processing user ID: 4c87ba22-5643-4f7f-a5ba-f451645b264d 
+[ 5:21:23.15] Fetching details for user 4c87ba22-5643-4f7f-a5ba-f451645b264d... 
+
+[ 5:21:28.90] User details for 4c87ba22-5643-4f7f-a5ba-f451645b264d: 
+{
+  "id" : "4c87ba22-5643-4f7f-a5ba-f451645b264d",
+  "createdTimestamp" : 1739529756838,
+  "username" : "user069",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user069@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:21:29.08] Fetching groups for user 4c87ba22-5643-4f7f-a5ba-f451645b264d... 
+
+[ 5:21:35.05] Groups for 4c87ba22-5643-4f7f-a5ba-f451645b264d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:21:35.44] Successfully processed user 4c87ba22-5643-4f7f-a5ba-f451645b264d. 
+------------------------------------ 
+[ 5:21:35.52] Processing user ID: e4eebaf2-c879-40d1-9b99-7b9f6978664c 
+[ 5:21:35.56] Fetching details for user e4eebaf2-c879-40d1-9b99-7b9f6978664c... 
+
+[ 5:21:41.51] User details for e4eebaf2-c879-40d1-9b99-7b9f6978664c: 
+{
+  "id" : "e4eebaf2-c879-40d1-9b99-7b9f6978664c",
+  "createdTimestamp" : 1739529773304,
+  "username" : "user070",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user070@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:21:41.70] Fetching groups for user e4eebaf2-c879-40d1-9b99-7b9f6978664c... 
+
+[ 5:21:47.69] Groups for e4eebaf2-c879-40d1-9b99-7b9f6978664c: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:21:48.09] Successfully processed user e4eebaf2-c879-40d1-9b99-7b9f6978664c. 
+------------------------------------ 
+[ 5:21:48.16] Processing user ID: 90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba 
+[ 5:21:48.21] Fetching details for user 90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba... 
+
+[ 5:21:54.13] User details for 90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba: 
+{
+  "id" : "90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba",
+  "createdTimestamp" : 1739529791322,
+  "username" : "user071",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user071@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:21:54.32] Fetching groups for user 90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba... 
+
+[ 5:22:00.03] Groups for 90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:22:00.43] Successfully processed user 90ef37a7-4bb7-4e89-b0ca-ef5fe8ac9cba. 
+------------------------------------ 
+[ 5:22:00.51] Processing user ID: c2836f94-8513-4f4c-9ef0-ee90948bae4e 
+[ 5:22:00.55] Fetching details for user c2836f94-8513-4f4c-9ef0-ee90948bae4e... 
+
+[ 5:22:06.33] User details for c2836f94-8513-4f4c-9ef0-ee90948bae4e: 
+{
+  "id" : "c2836f94-8513-4f4c-9ef0-ee90948bae4e",
+  "createdTimestamp" : 1739529809063,
+  "username" : "user072",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user072@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:22:06.51] Fetching groups for user c2836f94-8513-4f4c-9ef0-ee90948bae4e... 
+
+[ 5:22:12.22] Groups for c2836f94-8513-4f4c-9ef0-ee90948bae4e: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:22:12.63] Successfully processed user c2836f94-8513-4f4c-9ef0-ee90948bae4e. 
+------------------------------------ 
+[ 5:22:12.71] Processing user ID: d0f1b306-f83d-458d-a418-9a95e85ee155 
+[ 5:22:12.75] Fetching details for user d0f1b306-f83d-458d-a418-9a95e85ee155... 
+
+[ 5:22:18.12] User details for d0f1b306-f83d-458d-a418-9a95e85ee155: 
+{
+  "id" : "d0f1b306-f83d-458d-a418-9a95e85ee155",
+  "createdTimestamp" : 1739529827846,
+  "username" : "user073",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user073@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:22:18.28] Fetching groups for user d0f1b306-f83d-458d-a418-9a95e85ee155... 
+
+[ 5:22:23.87] Groups for d0f1b306-f83d-458d-a418-9a95e85ee155: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:22:24.25] Successfully processed user d0f1b306-f83d-458d-a418-9a95e85ee155. 
+------------------------------------ 
+[ 5:22:24.32] Processing user ID: 1928b89a-bb16-4f75-b7f2-a6f9611f4c30 
+[ 5:22:24.36] Fetching details for user 1928b89a-bb16-4f75-b7f2-a6f9611f4c30... 
+
+[ 5:22:29.22] User details for 1928b89a-bb16-4f75-b7f2-a6f9611f4c30: 
+{
+  "id" : "1928b89a-bb16-4f75-b7f2-a6f9611f4c30",
+  "createdTimestamp" : 1739529846296,
+  "username" : "user074",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user074@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:22:29.40] Fetching groups for user 1928b89a-bb16-4f75-b7f2-a6f9611f4c30... 
+
+[ 5:22:35.20] Groups for 1928b89a-bb16-4f75-b7f2-a6f9611f4c30: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:22:35.62] Successfully processed user 1928b89a-bb16-4f75-b7f2-a6f9611f4c30. 
+------------------------------------ 
+[ 5:22:35.70] Processing user ID: a14d9b13-85f8-486d-9bac-08e4540d5193 
+[ 5:22:35.74] Fetching details for user a14d9b13-85f8-486d-9bac-08e4540d5193... 
+
+[ 5:22:41.82] User details for a14d9b13-85f8-486d-9bac-08e4540d5193: 
+{
+  "id" : "a14d9b13-85f8-486d-9bac-08e4540d5193",
+  "createdTimestamp" : 1739529864299,
+  "username" : "user075",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user075@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:22:42.05] Fetching groups for user a14d9b13-85f8-486d-9bac-08e4540d5193... 
+
+[ 5:22:47.85] Groups for a14d9b13-85f8-486d-9bac-08e4540d5193: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:22:48.24] Successfully processed user a14d9b13-85f8-486d-9bac-08e4540d5193. 
+------------------------------------ 
+[ 5:22:48.32] Processing user ID: 23527975-abc4-40c3-a658-f17354620094 
+[ 5:22:48.36] Fetching details for user 23527975-abc4-40c3-a658-f17354620094... 
+
+[ 5:22:54.23] User details for 23527975-abc4-40c3-a658-f17354620094: 
+{
+  "id" : "23527975-abc4-40c3-a658-f17354620094",
+  "createdTimestamp" : 1739529882730,
+  "username" : "user076",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user076@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:22:54.40] Fetching groups for user 23527975-abc4-40c3-a658-f17354620094... 
+
+[ 5:23:00.07] Groups for 23527975-abc4-40c3-a658-f17354620094: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:23:00.49] Successfully processed user 23527975-abc4-40c3-a658-f17354620094. 
+------------------------------------ 
+[ 5:23:00.57] Processing user ID: 5dcba5d4-9a29-448f-ae1d-c1ed58742367 
+[ 5:23:00.61] Fetching details for user 5dcba5d4-9a29-448f-ae1d-c1ed58742367... 
+
+[ 5:23:06.37] User details for 5dcba5d4-9a29-448f-ae1d-c1ed58742367: 
+{
+  "id" : "5dcba5d4-9a29-448f-ae1d-c1ed58742367",
+  "createdTimestamp" : 1739529901123,
+  "username" : "user077",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user077@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:23:06.53] Fetching groups for user 5dcba5d4-9a29-448f-ae1d-c1ed58742367... 
+
+[ 5:23:12.08] Groups for 5dcba5d4-9a29-448f-ae1d-c1ed58742367: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:23:12.49] Successfully processed user 5dcba5d4-9a29-448f-ae1d-c1ed58742367. 
+------------------------------------ 
+[ 5:23:12.57] Processing user ID: 62e8caef-f8b9-4621-95c2-0637b9895719 
+[ 5:23:12.61] Fetching details for user 62e8caef-f8b9-4621-95c2-0637b9895719... 
+
+[ 5:23:18.45] User details for 62e8caef-f8b9-4621-95c2-0637b9895719: 
+{
+  "id" : "62e8caef-f8b9-4621-95c2-0637b9895719",
+  "createdTimestamp" : 1739529919556,
+  "username" : "user078",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user078@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:23:18.63] Fetching groups for user 62e8caef-f8b9-4621-95c2-0637b9895719... 
+
+[ 5:23:24.56] Groups for 62e8caef-f8b9-4621-95c2-0637b9895719: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:23:24.97] Successfully processed user 62e8caef-f8b9-4621-95c2-0637b9895719. 
+------------------------------------ 
+[ 5:23:25.06] Processing user ID: 4d37dcd6-9bb5-4016-9edf-58d6664cdc2d 
+[ 5:23:25.10] Fetching details for user 4d37dcd6-9bb5-4016-9edf-58d6664cdc2d... 
+
+[ 5:23:31.21] User details for 4d37dcd6-9bb5-4016-9edf-58d6664cdc2d: 
+{
+  "id" : "4d37dcd6-9bb5-4016-9edf-58d6664cdc2d",
+  "createdTimestamp" : 1739529938861,
+  "username" : "user079",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user079@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:23:31.41] Fetching groups for user 4d37dcd6-9bb5-4016-9edf-58d6664cdc2d... 
+
+[ 5:23:37.43] Groups for 4d37dcd6-9bb5-4016-9edf-58d6664cdc2d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:23:37.86] Successfully processed user 4d37dcd6-9bb5-4016-9edf-58d6664cdc2d. 
+------------------------------------ 
+[ 5:23:37.94] Processing user ID: 9e3f1523-3ffc-428f-8c08-a36c92d5ce2d 
+[ 5:23:37.98] Fetching details for user 9e3f1523-3ffc-428f-8c08-a36c92d5ce2d... 
+
+[ 5:23:44.08] User details for 9e3f1523-3ffc-428f-8c08-a36c92d5ce2d: 
+{
+  "id" : "9e3f1523-3ffc-428f-8c08-a36c92d5ce2d",
+  "createdTimestamp" : 1739529956971,
+  "username" : "user080",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user080@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:23:44.26] Fetching groups for user 9e3f1523-3ffc-428f-8c08-a36c92d5ce2d... 
+
+[ 5:23:50.17] Groups for 9e3f1523-3ffc-428f-8c08-a36c92d5ce2d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:23:50.58] Successfully processed user 9e3f1523-3ffc-428f-8c08-a36c92d5ce2d. 
+------------------------------------ 
+[ 5:23:50.66] Processing user ID: b9fde3d4-897a-4d9d-b340-1c358922a9e0 
+[ 5:23:50.70] Fetching details for user b9fde3d4-897a-4d9d-b340-1c358922a9e0... 
+
+[ 5:23:56.47] User details for b9fde3d4-897a-4d9d-b340-1c358922a9e0: 
+{
+  "id" : "b9fde3d4-897a-4d9d-b340-1c358922a9e0",
+  "createdTimestamp" : 1739529975262,
+  "username" : "user081",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user081@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:23:56.68] Fetching groups for user b9fde3d4-897a-4d9d-b340-1c358922a9e0... 
+
+[ 5:24:02.45] Groups for b9fde3d4-897a-4d9d-b340-1c358922a9e0: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:24:02.85] Successfully processed user b9fde3d4-897a-4d9d-b340-1c358922a9e0. 
+------------------------------------ 
+[ 5:24:02.94] Processing user ID: 248757c8-458c-43f4-8001-19e284b134b4 
+[ 5:24:02.98] Fetching details for user 248757c8-458c-43f4-8001-19e284b134b4... 
+
+[ 5:24:08.86] User details for 248757c8-458c-43f4-8001-19e284b134b4: 
+{
+  "id" : "248757c8-458c-43f4-8001-19e284b134b4",
+  "createdTimestamp" : 1739529993473,
+  "username" : "user082",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user082@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:24:09.05] Fetching groups for user 248757c8-458c-43f4-8001-19e284b134b4... 
+
+[ 5:24:14.67] Groups for 248757c8-458c-43f4-8001-19e284b134b4: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:24:15.06] Successfully processed user 248757c8-458c-43f4-8001-19e284b134b4. 
+------------------------------------ 
+[ 5:24:15.15] Processing user ID: 97c203e2-2fd2-4a7f-a180-8cc931b48ab4 
+[ 5:24:15.19] Fetching details for user 97c203e2-2fd2-4a7f-a180-8cc931b48ab4... 
+
+[ 5:24:21.07] User details for 97c203e2-2fd2-4a7f-a180-8cc931b48ab4: 
+{
+  "id" : "97c203e2-2fd2-4a7f-a180-8cc931b48ab4",
+  "createdTimestamp" : 1739530010425,
+  "username" : "user083",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user083@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:24:21.26] Fetching groups for user 97c203e2-2fd2-4a7f-a180-8cc931b48ab4... 
+
+[ 5:24:27.21] Groups for 97c203e2-2fd2-4a7f-a180-8cc931b48ab4: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:24:27.63] Successfully processed user 97c203e2-2fd2-4a7f-a180-8cc931b48ab4. 
+------------------------------------ 
+[ 5:24:27.71] Processing user ID: 08c3528c-34d0-44e4-84cc-040c4ad4ca30 
+[ 5:24:27.75] Fetching details for user 08c3528c-34d0-44e4-84cc-040c4ad4ca30... 
+
+[ 5:24:33.74] User details for 08c3528c-34d0-44e4-84cc-040c4ad4ca30: 
+{
+  "id" : "08c3528c-34d0-44e4-84cc-040c4ad4ca30",
+  "createdTimestamp" : 1739530028104,
+  "username" : "user084",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user084@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:24:33.94] Fetching groups for user 08c3528c-34d0-44e4-84cc-040c4ad4ca30... 
+
+[ 5:24:39.73] Groups for 08c3528c-34d0-44e4-84cc-040c4ad4ca30: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:24:40.12] Successfully processed user 08c3528c-34d0-44e4-84cc-040c4ad4ca30. 
+------------------------------------ 
+[ 5:24:40.20] Processing user ID: 80de232b-7f78-44f2-bf8d-a5dcc90b7b8a 
+[ 5:24:40.24] Fetching details for user 80de232b-7f78-44f2-bf8d-a5dcc90b7b8a... 
+
+[ 5:24:46.36] User details for 80de232b-7f78-44f2-bf8d-a5dcc90b7b8a: 
+{
+  "id" : "80de232b-7f78-44f2-bf8d-a5dcc90b7b8a",
+  "createdTimestamp" : 1739530046543,
+  "username" : "user085",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user085@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:24:46.53] Fetching groups for user 80de232b-7f78-44f2-bf8d-a5dcc90b7b8a... 
+
+[ 5:24:52.47] Groups for 80de232b-7f78-44f2-bf8d-a5dcc90b7b8a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:24:52.86] Successfully processed user 80de232b-7f78-44f2-bf8d-a5dcc90b7b8a. 
+------------------------------------ 
+[ 5:24:52.94] Processing user ID: 43597756-ded2-4762-8902-1989bebecf9a 
+[ 5:24:52.98] Fetching details for user 43597756-ded2-4762-8902-1989bebecf9a... 
+
+[ 5:24:58.85] User details for 43597756-ded2-4762-8902-1989bebecf9a: 
+{
+  "id" : "43597756-ded2-4762-8902-1989bebecf9a",
+  "createdTimestamp" : 1739530065433,
+  "username" : "user086",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user086@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:24:59.05] Fetching groups for user 43597756-ded2-4762-8902-1989bebecf9a... 
+
+[ 5:25:05.01] Groups for 43597756-ded2-4762-8902-1989bebecf9a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:25:05.40] Successfully processed user 43597756-ded2-4762-8902-1989bebecf9a. 
+------------------------------------ 
+[ 5:25:05.50] Processing user ID: 934ab503-0252-46b1-9700-29f42e2ae546 
+[ 5:25:05.54] Fetching details for user 934ab503-0252-46b1-9700-29f42e2ae546... 
+
+[ 5:25:11.42] User details for 934ab503-0252-46b1-9700-29f42e2ae546: 
+{
+  "id" : "934ab503-0252-46b1-9700-29f42e2ae546",
+  "createdTimestamp" : 1739530083289,
+  "username" : "user087",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user087@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:25:11.59] Fetching groups for user 934ab503-0252-46b1-9700-29f42e2ae546... 
+
+[ 5:25:17.41] Groups for 934ab503-0252-46b1-9700-29f42e2ae546: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:25:17.86] Successfully processed user 934ab503-0252-46b1-9700-29f42e2ae546. 
+------------------------------------ 
+[ 5:25:17.95] Processing user ID: fbeca82d-24d9-4853-867e-20ebbad8011a 
+[ 5:25:18.00] Fetching details for user fbeca82d-24d9-4853-867e-20ebbad8011a... 
+
+[ 5:25:23.95] User details for fbeca82d-24d9-4853-867e-20ebbad8011a: 
+{
+  "id" : "fbeca82d-24d9-4853-867e-20ebbad8011a",
+  "createdTimestamp" : 1739530100805,
+  "username" : "user088",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user088@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:25:24.15] Fetching groups for user fbeca82d-24d9-4853-867e-20ebbad8011a... 
+
+[ 5:25:30.21] Groups for fbeca82d-24d9-4853-867e-20ebbad8011a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:25:30.61] Successfully processed user fbeca82d-24d9-4853-867e-20ebbad8011a. 
+------------------------------------ 
+[ 5:25:30.69] Processing user ID: 4a016f2d-ecf0-48d6-b864-953d833cec3d 
+[ 5:25:30.74] Fetching details for user 4a016f2d-ecf0-48d6-b864-953d833cec3d... 
+
+[ 5:25:36.58] User details for 4a016f2d-ecf0-48d6-b864-953d833cec3d: 
+{
+  "id" : "4a016f2d-ecf0-48d6-b864-953d833cec3d",
+  "createdTimestamp" : 1739530119731,
+  "username" : "user089",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user089@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:25:36.76] Fetching groups for user 4a016f2d-ecf0-48d6-b864-953d833cec3d... 
+
+[ 5:25:42.88] Groups for 4a016f2d-ecf0-48d6-b864-953d833cec3d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:25:43.29] Successfully processed user 4a016f2d-ecf0-48d6-b864-953d833cec3d. 
+------------------------------------ 
+[ 5:25:43.37] Processing user ID: e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d 
+[ 5:25:43.42] Fetching details for user e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d... 
+
+[ 5:25:49.38] User details for e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d: 
+{
+  "id" : "e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d",
+  "createdTimestamp" : 1739530138605,
+  "username" : "user090",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user090@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:25:49.57] Fetching groups for user e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d... 
+
+[ 5:25:55.52] Groups for e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:25:55.96] Successfully processed user e39f8bc8-4b31-4a76-abbc-e8de4fbe8c8d. 
+------------------------------------ 
+[ 5:25:56.04] Processing user ID: 685f581d-1c72-4c61-aa04-01d1ac8ec63b 
+[ 5:25:56.08] Fetching details for user 685f581d-1c72-4c61-aa04-01d1ac8ec63b... 
+
+[ 5:26:02.28] User details for 685f581d-1c72-4c61-aa04-01d1ac8ec63b: 
+{
+  "id" : "685f581d-1c72-4c61-aa04-01d1ac8ec63b",
+  "createdTimestamp" : 1739530157176,
+  "username" : "user091",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user091@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:26:02.48] Fetching groups for user 685f581d-1c72-4c61-aa04-01d1ac8ec63b... 
+
+[ 5:26:08.28] Groups for 685f581d-1c72-4c61-aa04-01d1ac8ec63b: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:26:08.72] Successfully processed user 685f581d-1c72-4c61-aa04-01d1ac8ec63b. 
+------------------------------------ 
+[ 5:26:08.80] Processing user ID: e5f0e0d3-efc8-4460-845f-5df261af32c4 
+[ 5:26:08.84] Fetching details for user e5f0e0d3-efc8-4460-845f-5df261af32c4... 
+
+[ 5:26:14.89] User details for e5f0e0d3-efc8-4460-845f-5df261af32c4: 
+{
+  "id" : "e5f0e0d3-efc8-4460-845f-5df261af32c4",
+  "createdTimestamp" : 1739530174959,
+  "username" : "user092",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user092@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:26:15.06] Fetching groups for user e5f0e0d3-efc8-4460-845f-5df261af32c4... 
+
+[ 5:26:20.94] Groups for e5f0e0d3-efc8-4460-845f-5df261af32c4: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:26:21.37] Successfully processed user e5f0e0d3-efc8-4460-845f-5df261af32c4. 
+------------------------------------ 
+[ 5:26:21.45] Processing user ID: e17bf628-3a76-44a3-84a6-b1da8fc60fb9 
+[ 5:26:21.50] Fetching details for user e17bf628-3a76-44a3-84a6-b1da8fc60fb9... 
+
+[ 5:26:27.39] User details for e17bf628-3a76-44a3-84a6-b1da8fc60fb9: 
+{
+  "id" : "e17bf628-3a76-44a3-84a6-b1da8fc60fb9",
+  "createdTimestamp" : 1739530193375,
+  "username" : "user093",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user093@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:26:27.56] Fetching groups for user e17bf628-3a76-44a3-84a6-b1da8fc60fb9... 
+
+[ 5:26:33.00] Groups for e17bf628-3a76-44a3-84a6-b1da8fc60fb9: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:26:33.46] Successfully processed user e17bf628-3a76-44a3-84a6-b1da8fc60fb9. 
+------------------------------------ 
+[ 5:26:33.54] Processing user ID: 201535e1-ebf4-49d6-86c2-f23654fb9a05 
+[ 5:26:33.60] Fetching details for user 201535e1-ebf4-49d6-86c2-f23654fb9a05... 
+
+[ 5:26:39.62] User details for 201535e1-ebf4-49d6-86c2-f23654fb9a05: 
+{
+  "id" : "201535e1-ebf4-49d6-86c2-f23654fb9a05",
+  "createdTimestamp" : 1739530211519,
+  "username" : "user094",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user094@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:26:39.80] Fetching groups for user 201535e1-ebf4-49d6-86c2-f23654fb9a05... 
+
+[ 5:26:45.62] Groups for 201535e1-ebf4-49d6-86c2-f23654fb9a05: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:26:46.02] Successfully processed user 201535e1-ebf4-49d6-86c2-f23654fb9a05. 
+------------------------------------ 
+[ 5:26:46.10] Processing user ID: e97b5906-b208-448a-a3a5-a716659826e1 
+[ 5:26:46.14] Fetching details for user e97b5906-b208-448a-a3a5-a716659826e1... 
+
+[ 5:26:52.12] User details for e97b5906-b208-448a-a3a5-a716659826e1: 
+{
+  "id" : "e97b5906-b208-448a-a3a5-a716659826e1",
+  "createdTimestamp" : 1739530230171,
+  "username" : "user095",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user095@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:26:52.30] Fetching groups for user e97b5906-b208-448a-a3a5-a716659826e1... 
+
+[ 5:26:58.18] Groups for e97b5906-b208-448a-a3a5-a716659826e1: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:26:58.60] Successfully processed user e97b5906-b208-448a-a3a5-a716659826e1. 
+------------------------------------ 
+[ 5:26:58.68] Processing user ID: ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15 
+[ 5:26:58.72] Fetching details for user ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15... 
+
+[ 5:27:04.68] User details for ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15: 
+{
+  "id" : "ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15",
+  "createdTimestamp" : 1739530248769,
+  "username" : "user096",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user096@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:27:04.84] Fetching groups for user ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15... 
+
+[ 5:27:10.73] Groups for ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:27:11.20] Successfully processed user ccd3d0fd-f2ad-43fa-af3b-9e3dcf2e4b15. 
+------------------------------------ 
+[ 5:27:11.29] Processing user ID: 9d997822-812a-4f3d-935a-c5f43cc69ce4 
+[ 5:27:11.34] Fetching details for user 9d997822-812a-4f3d-935a-c5f43cc69ce4... 
+
+[ 5:27:17.08] User details for 9d997822-812a-4f3d-935a-c5f43cc69ce4: 
+{
+  "id" : "9d997822-812a-4f3d-935a-c5f43cc69ce4",
+  "createdTimestamp" : 1739530267738,
+  "username" : "user097",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user097@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:27:17.28] Fetching groups for user 9d997822-812a-4f3d-935a-c5f43cc69ce4... 
+
+[ 5:27:23.08] Groups for 9d997822-812a-4f3d-935a-c5f43cc69ce4: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:27:23.48] Successfully processed user 9d997822-812a-4f3d-935a-c5f43cc69ce4. 
+------------------------------------ 
+[ 5:27:23.58] Processing user ID: 92b989a7-a9aa-4113-af78-a5e3b1b8cc15 
+[ 5:27:23.62] Fetching details for user 92b989a7-a9aa-4113-af78-a5e3b1b8cc15... 
+
+[ 5:27:29.41] User details for 92b989a7-a9aa-4113-af78-a5e3b1b8cc15: 
+{
+  "id" : "92b989a7-a9aa-4113-af78-a5e3b1b8cc15",
+  "createdTimestamp" : 1739530285456,
+  "username" : "user098",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user098@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:27:29.59] Fetching groups for user 92b989a7-a9aa-4113-af78-a5e3b1b8cc15... 
+
+[ 5:27:35.35] Groups for 92b989a7-a9aa-4113-af78-a5e3b1b8cc15: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:27:35.77] Successfully processed user 92b989a7-a9aa-4113-af78-a5e3b1b8cc15. 
+------------------------------------ 
+[ 5:27:35.84] Processing user ID: 36ac4e02-3d6f-4aca-9e3f-165dda5dcc05 
+[ 5:27:35.88] Fetching details for user 36ac4e02-3d6f-4aca-9e3f-165dda5dcc05... 
+
+[ 5:27:41.91] User details for 36ac4e02-3d6f-4aca-9e3f-165dda5dcc05: 
+{
+  "id" : "36ac4e02-3d6f-4aca-9e3f-165dda5dcc05",
+  "createdTimestamp" : 1739530304297,
+  "username" : "user099",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user099@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:27:42.10] Fetching groups for user 36ac4e02-3d6f-4aca-9e3f-165dda5dcc05... 
+
+[ 5:27:47.73] Groups for 36ac4e02-3d6f-4aca-9e3f-165dda5dcc05: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:27:48.15] Successfully processed user 36ac4e02-3d6f-4aca-9e3f-165dda5dcc05. 
+------------------------------------ 
+[ 5:27:48.23] Processing user ID: 926cf507-9502-4a40-83fc-f9984196337c 
+[ 5:27:48.27] Fetching details for user 926cf507-9502-4a40-83fc-f9984196337c... 
+
+[ 5:27:54.04] User details for 926cf507-9502-4a40-83fc-f9984196337c: 
+{
+  "id" : "926cf507-9502-4a40-83fc-f9984196337c",
+  "createdTimestamp" : 1739530322784,
+  "username" : "user100",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user100@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:27:54.22] Fetching groups for user 926cf507-9502-4a40-83fc-f9984196337c... 
+
+[ 5:27:59.84] Groups for 926cf507-9502-4a40-83fc-f9984196337c: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:28:00.28] Successfully processed user 926cf507-9502-4a40-83fc-f9984196337c. 
+------------------------------------ 
+[ 5:28:00.36] Processing user ID: b698d6b4-52d6-4d90-b200-36487da07f7d 
+[ 5:28:00.40] Fetching details for user b698d6b4-52d6-4d90-b200-36487da07f7d... 
+
+[ 5:28:06.12] User details for b698d6b4-52d6-4d90-b200-36487da07f7d: 
+{
+  "id" : "b698d6b4-52d6-4d90-b200-36487da07f7d",
+  "createdTimestamp" : 1739530341269,
+  "username" : "user101",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user101@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:28:06.31] Fetching groups for user b698d6b4-52d6-4d90-b200-36487da07f7d... 
+
+[ 5:28:12.06] Groups for b698d6b4-52d6-4d90-b200-36487da07f7d: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:28:12.48] Successfully processed user b698d6b4-52d6-4d90-b200-36487da07f7d. 
+------------------------------------ 
+[ 5:28:12.57] Processing user ID: e44332dd-4ffb-41a3-b067-90f797e0b94e 
+[ 5:28:12.61] Fetching details for user e44332dd-4ffb-41a3-b067-90f797e0b94e... 
+
+[ 5:28:18.00] User details for e44332dd-4ffb-41a3-b067-90f797e0b94e: 
+{
+  "id" : "e44332dd-4ffb-41a3-b067-90f797e0b94e",
+  "createdTimestamp" : 1739530359067,
+  "username" : "user102",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user102@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:28:18.18] Fetching groups for user e44332dd-4ffb-41a3-b067-90f797e0b94e... 
+
+[ 5:28:24.00] Groups for e44332dd-4ffb-41a3-b067-90f797e0b94e: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:28:24.45] Successfully processed user e44332dd-4ffb-41a3-b067-90f797e0b94e. 
+------------------------------------ 
+[ 5:28:24.54] Processing user ID: 6a1a199b-e6fa-45f9-b064-ac2504da6a07 
+[ 5:28:24.58] Fetching details for user 6a1a199b-e6fa-45f9-b064-ac2504da6a07... 
+
+[ 5:28:30.44] User details for 6a1a199b-e6fa-45f9-b064-ac2504da6a07: 
+{
+  "id" : "6a1a199b-e6fa-45f9-b064-ac2504da6a07",
+  "createdTimestamp" : 1739530374888,
+  "username" : "user103",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user103@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:28:30.62] Fetching groups for user 6a1a199b-e6fa-45f9-b064-ac2504da6a07... 
+
+[ 5:28:36.61] Groups for 6a1a199b-e6fa-45f9-b064-ac2504da6a07: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:28:37.00] Successfully processed user 6a1a199b-e6fa-45f9-b064-ac2504da6a07. 
+------------------------------------ 
+[ 5:28:37.10] Processing user ID: c8e28344-eb40-489e-ad60-7c6f65708ba1 
+[ 5:28:37.14] Fetching details for user c8e28344-eb40-489e-ad60-7c6f65708ba1... 
+
+[ 5:28:43.05] User details for c8e28344-eb40-489e-ad60-7c6f65708ba1: 
+{
+  "id" : "c8e28344-eb40-489e-ad60-7c6f65708ba1",
+  "createdTimestamp" : 1739530392503,
+  "username" : "user104",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user104@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:28:43.23] Fetching groups for user c8e28344-eb40-489e-ad60-7c6f65708ba1... 
+
+[ 5:28:49.04] Groups for c8e28344-eb40-489e-ad60-7c6f65708ba1: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:28:49.47] Successfully processed user c8e28344-eb40-489e-ad60-7c6f65708ba1. 
+------------------------------------ 
+[ 5:28:49.55] Processing user ID: d9615da1-0575-4691-94b0-8ec313995ef2 
+[ 5:28:49.59] Fetching details for user d9615da1-0575-4691-94b0-8ec313995ef2... 
+
+[ 5:28:55.45] User details for d9615da1-0575-4691-94b0-8ec313995ef2: 
+{
+  "id" : "d9615da1-0575-4691-94b0-8ec313995ef2",
+  "createdTimestamp" : 1739530411222,
+  "username" : "user105",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user105@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:28:55.65] Fetching groups for user d9615da1-0575-4691-94b0-8ec313995ef2... 
+
+[ 5:29:01.39] Groups for d9615da1-0575-4691-94b0-8ec313995ef2: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:29:01.81] Successfully processed user d9615da1-0575-4691-94b0-8ec313995ef2. 
+------------------------------------ 
+[ 5:29:01.89] Processing user ID: b45a8e3b-c82e-4d35-ae83-c878ca87640e 
+[ 5:29:01.93] Fetching details for user b45a8e3b-c82e-4d35-ae83-c878ca87640e... 
+
+[ 5:29:07.75] User details for b45a8e3b-c82e-4d35-ae83-c878ca87640e: 
+{
+  "id" : "b45a8e3b-c82e-4d35-ae83-c878ca87640e",
+  "createdTimestamp" : 1739530429581,
+  "username" : "user106",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user106@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:29:07.93] Fetching groups for user b45a8e3b-c82e-4d35-ae83-c878ca87640e... 
+
+[ 5:29:13.72] Groups for b45a8e3b-c82e-4d35-ae83-c878ca87640e: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:29:14.13] Successfully processed user b45a8e3b-c82e-4d35-ae83-c878ca87640e. 
+------------------------------------ 
+[ 5:29:14.21] Processing user ID: 0e77fb93-8ae9-4a55-bb53-926cf041566e 
+[ 5:29:14.25] Fetching details for user 0e77fb93-8ae9-4a55-bb53-926cf041566e... 
+
+[ 5:29:19.82] User details for 0e77fb93-8ae9-4a55-bb53-926cf041566e: 
+{
+  "id" : "0e77fb93-8ae9-4a55-bb53-926cf041566e",
+  "createdTimestamp" : 1739530448860,
+  "username" : "user107",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user107@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:29:20.02] Fetching groups for user 0e77fb93-8ae9-4a55-bb53-926cf041566e... 
+
+[ 5:29:25.80] Groups for 0e77fb93-8ae9-4a55-bb53-926cf041566e: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:29:26.20] Successfully processed user 0e77fb93-8ae9-4a55-bb53-926cf041566e. 
+------------------------------------ 
+[ 5:29:26.29] Processing user ID: 1ac1bd3d-991c-4ca7-96ff-190633b4ad4a 
+[ 5:29:26.34] Fetching details for user 1ac1bd3d-991c-4ca7-96ff-190633b4ad4a... 
+
+[ 5:29:32.28] User details for 1ac1bd3d-991c-4ca7-96ff-190633b4ad4a: 
+{
+  "id" : "1ac1bd3d-991c-4ca7-96ff-190633b4ad4a",
+  "createdTimestamp" : 1739530468197,
+  "username" : "user108",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user108@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:29:32.44] Fetching groups for user 1ac1bd3d-991c-4ca7-96ff-190633b4ad4a... 
+
+[ 5:29:38.25] Groups for 1ac1bd3d-991c-4ca7-96ff-190633b4ad4a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:29:38.64] Successfully processed user 1ac1bd3d-991c-4ca7-96ff-190633b4ad4a. 
+------------------------------------ 
+[ 5:29:38.72] Processing user ID: 881132aa-d9d3-414a-820b-d8d2547079f2 
+[ 5:29:38.76] Fetching details for user 881132aa-d9d3-414a-820b-d8d2547079f2... 
+
+[ 5:29:44.61] User details for 881132aa-d9d3-414a-820b-d8d2547079f2: 
+{
+  "id" : "881132aa-d9d3-414a-820b-d8d2547079f2",
+  "createdTimestamp" : 1739530487277,
+  "username" : "user109",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user109@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:29:44.78] Fetching groups for user 881132aa-d9d3-414a-820b-d8d2547079f2... 
+
+[ 5:29:50.29] Groups for 881132aa-d9d3-414a-820b-d8d2547079f2: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:29:50.69] Successfully processed user 881132aa-d9d3-414a-820b-d8d2547079f2. 
+------------------------------------ 
+[ 5:29:50.77] Processing user ID: ae619057-eee6-4087-9594-ff1bbe84ee42 
+[ 5:29:50.81] Fetching details for user ae619057-eee6-4087-9594-ff1bbe84ee42... 
+
+[ 5:29:56.63] User details for ae619057-eee6-4087-9594-ff1bbe84ee42: 
+{
+  "id" : "ae619057-eee6-4087-9594-ff1bbe84ee42",
+  "createdTimestamp" : 1739530505845,
+  "username" : "user110",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user110@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:29:56.79] Fetching groups for user ae619057-eee6-4087-9594-ff1bbe84ee42... 
+
+[ 5:30:02.66] Groups for ae619057-eee6-4087-9594-ff1bbe84ee42: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:30:03.07] Successfully processed user ae619057-eee6-4087-9594-ff1bbe84ee42. 
+------------------------------------ 
+[ 5:30:03.15] Processing user ID: 47e975d9-cc3b-4f71-a765-f5b18bcd8882 
+[ 5:30:03.19] Fetching details for user 47e975d9-cc3b-4f71-a765-f5b18bcd8882... 
+
+[ 5:30:08.92] User details for 47e975d9-cc3b-4f71-a765-f5b18bcd8882: 
+{
+  "id" : "47e975d9-cc3b-4f71-a765-f5b18bcd8882",
+  "createdTimestamp" : 1739530524705,
+  "username" : "user111",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user111@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:30:09.08] Fetching groups for user 47e975d9-cc3b-4f71-a765-f5b18bcd8882... 
+
+[ 5:30:14.82] Groups for 47e975d9-cc3b-4f71-a765-f5b18bcd8882: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:30:15.22] Successfully processed user 47e975d9-cc3b-4f71-a765-f5b18bcd8882. 
+------------------------------------ 
+[ 5:30:15.30] Processing user ID: c922d4c9-1ce6-4a6a-8245-e440cb14ddcb 
+[ 5:30:15.35] Fetching details for user c922d4c9-1ce6-4a6a-8245-e440cb14ddcb... 
+
+[ 5:30:21.28] User details for c922d4c9-1ce6-4a6a-8245-e440cb14ddcb: 
+{
+  "id" : "c922d4c9-1ce6-4a6a-8245-e440cb14ddcb",
+  "createdTimestamp" : 1739530544062,
+  "username" : "user112",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user112@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:30:21.46] Fetching groups for user c922d4c9-1ce6-4a6a-8245-e440cb14ddcb... 
+
+[ 5:30:27.19] Groups for c922d4c9-1ce6-4a6a-8245-e440cb14ddcb: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:30:27.60] Successfully processed user c922d4c9-1ce6-4a6a-8245-e440cb14ddcb. 
+------------------------------------ 
+[ 5:30:27.68] Processing user ID: c162db19-c947-4fa7-b065-8b391437ca41 
+[ 5:30:27.72] Fetching details for user c162db19-c947-4fa7-b065-8b391437ca41... 
+
+[ 5:30:33.52] User details for c162db19-c947-4fa7-b065-8b391437ca41: 
+{
+  "id" : "c162db19-c947-4fa7-b065-8b391437ca41",
+  "createdTimestamp" : 1739530562481,
+  "username" : "user113",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user113@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:30:33.72] Fetching groups for user c162db19-c947-4fa7-b065-8b391437ca41... 
+
+[ 5:30:39.49] Groups for c162db19-c947-4fa7-b065-8b391437ca41: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:30:39.90] Successfully processed user c162db19-c947-4fa7-b065-8b391437ca41. 
+------------------------------------ 
+[ 5:30:39.98] Processing user ID: bd878447-6cba-4086-9b1d-6bd8900e0324 
+[ 5:30:40.03] Fetching details for user bd878447-6cba-4086-9b1d-6bd8900e0324... 
+
+[ 5:30:45.89] User details for bd878447-6cba-4086-9b1d-6bd8900e0324: 
+{
+  "id" : "bd878447-6cba-4086-9b1d-6bd8900e0324",
+  "createdTimestamp" : 1739530581524,
+  "username" : "user114",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user114@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:30:46.07] Fetching groups for user bd878447-6cba-4086-9b1d-6bd8900e0324... 
+
+[ 5:30:51.76] Groups for bd878447-6cba-4086-9b1d-6bd8900e0324: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:30:52.19] Successfully processed user bd878447-6cba-4086-9b1d-6bd8900e0324. 
+------------------------------------ 
+[ 5:30:52.29] Processing user ID: 42e6f30f-565b-429c-ad73-a4ddc4d5073c 
+[ 5:30:52.33] Fetching details for user 42e6f30f-565b-429c-ad73-a4ddc4d5073c... 
+
+[ 5:30:57.98] User details for 42e6f30f-565b-429c-ad73-a4ddc4d5073c: 
+{
+  "id" : "42e6f30f-565b-429c-ad73-a4ddc4d5073c",
+  "createdTimestamp" : 1739530600634,
+  "username" : "user115",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user115@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:30:58.17] Fetching groups for user 42e6f30f-565b-429c-ad73-a4ddc4d5073c... 
+
+[ 5:31:03.74] Groups for 42e6f30f-565b-429c-ad73-a4ddc4d5073c: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:31:04.14] Successfully processed user 42e6f30f-565b-429c-ad73-a4ddc4d5073c. 
+------------------------------------ 
+[ 5:31:04.23] Processing user ID: 0dee3c36-4836-45c9-96bf-f8ff9715cbda 
+[ 5:31:04.28] Fetching details for user 0dee3c36-4836-45c9-96bf-f8ff9715cbda... 
+
+[ 5:31:09.88] User details for 0dee3c36-4836-45c9-96bf-f8ff9715cbda: 
+{
+  "id" : "0dee3c36-4836-45c9-96bf-f8ff9715cbda",
+  "createdTimestamp" : 1739530619454,
+  "username" : "user116",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user116@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:31:10.06] Fetching groups for user 0dee3c36-4836-45c9-96bf-f8ff9715cbda... 
+
+[ 5:31:15.79] Groups for 0dee3c36-4836-45c9-96bf-f8ff9715cbda: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:31:16.22] Successfully processed user 0dee3c36-4836-45c9-96bf-f8ff9715cbda. 
+------------------------------------ 
+[ 5:31:16.30] Processing user ID: af64c258-5bb2-4f91-a9d0-18e38692db75 
+[ 5:31:16.36] Fetching details for user af64c258-5bb2-4f91-a9d0-18e38692db75... 
+
+[ 5:31:22.14] User details for af64c258-5bb2-4f91-a9d0-18e38692db75: 
+{
+  "id" : "af64c258-5bb2-4f91-a9d0-18e38692db75",
+  "createdTimestamp" : 1739530638211,
+  "username" : "user117",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user117@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:31:22.32] Fetching groups for user af64c258-5bb2-4f91-a9d0-18e38692db75... 
+
+[ 5:31:27.97] Groups for af64c258-5bb2-4f91-a9d0-18e38692db75: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:31:28.37] Successfully processed user af64c258-5bb2-4f91-a9d0-18e38692db75. 
+------------------------------------ 
+[ 5:31:28.45] Processing user ID: efd91eda-8ea0-47a1-bdfd-eda35323167a 
+[ 5:31:28.49] Fetching details for user efd91eda-8ea0-47a1-bdfd-eda35323167a... 
+
+[ 5:31:34.23] User details for efd91eda-8ea0-47a1-bdfd-eda35323167a: 
+{
+  "id" : "efd91eda-8ea0-47a1-bdfd-eda35323167a",
+  "createdTimestamp" : 1739530656692,
+  "username" : "user118",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user118@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:31:34.41] Fetching groups for user efd91eda-8ea0-47a1-bdfd-eda35323167a... 
+
+[ 5:31:40.31] Groups for efd91eda-8ea0-47a1-bdfd-eda35323167a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:31:40.71] Successfully processed user efd91eda-8ea0-47a1-bdfd-eda35323167a. 
+------------------------------------ 
+[ 5:31:40.79] Processing user ID: 0fa52ebe-8856-47f8-89e5-5a6c22affe3a 
+[ 5:31:40.83] Fetching details for user 0fa52ebe-8856-47f8-89e5-5a6c22affe3a... 
+
+[ 5:31:46.75] User details for 0fa52ebe-8856-47f8-89e5-5a6c22affe3a: 
+{
+  "id" : "0fa52ebe-8856-47f8-89e5-5a6c22affe3a",
+  "createdTimestamp" : 1739530675514,
+  "username" : "user119",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user119@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:31:46.93] Fetching groups for user 0fa52ebe-8856-47f8-89e5-5a6c22affe3a... 
+
+[ 5:31:52.90] Groups for 0fa52ebe-8856-47f8-89e5-5a6c22affe3a: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:31:53.31] Successfully processed user 0fa52ebe-8856-47f8-89e5-5a6c22affe3a. 
+------------------------------------ 
+[ 5:31:53.39] Processing user ID: 9a8ef97f-e404-4083-82e3-9f9060c9d43c 
+[ 5:31:53.45] Fetching details for user 9a8ef97f-e404-4083-82e3-9f9060c9d43c... 
+
+[ 5:31:58.96] User details for 9a8ef97f-e404-4083-82e3-9f9060c9d43c: 
+{
+  "id" : "9a8ef97f-e404-4083-82e3-9f9060c9d43c",
+  "createdTimestamp" : 1739530694106,
+  "username" : "user120",
+  "enabled" : true,
+  "totp" : false,
+  "emailVerified" : false,
+  "email" : "user120@example.com",
+  "disableableCredentialTypes" : [ ],
+  "requiredActions" : [ ],
+  "notBefore" : 0,
+  "access" : {
+    "manageGroupMembership" : true,
+    "view" : true,
+    "mapRoles" : true,
+    "impersonate" : true,
+    "manage" : true
+  }
+}------------------------------------ 
+[ 5:31:59.12] Fetching groups for user 9a8ef97f-e404-4083-82e3-9f9060c9d43c... 
+
+[ 5:32:04.96] Groups for 9a8ef97f-e404-4083-82e3-9f9060c9d43c: 
+[ {
+  "id" : "9322f589-8ad3-4db9-8c12-56093fcea994",
+  "name" : "SuperUsers",
+  "path" : "/SuperUsers"
+} ]------------------------------------ 
+[ 5:32:05.38] Successfully processed user 9a8ef97f-e404-4083-82e3-9f9060c9d43c. 
+------------------------------------ 
+[ 5:32:05.45] [END] Export completed successfully at Fri 02/14/2025  5:32:05.45 
